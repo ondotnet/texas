@@ -18,9 +18,11 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - name: Test
+    - name: Xunit Test
       env:
         XUNIT_CONNECTION_STRING: ${{ secrets.UNITTESTCONNECTIONSTRING }}
       run: |
         dotnet user-secrets set "ConnectionStrings:Default" "${{ secrets.UNITTESTCONNECTIONSTRING }}"
-        dotnet test --no-build --verbosity normal
+        pwd
+        ls -a
+        dotnet test --project Texas.XunitTests/Texas.XunitTests.csproj --no-build --verbosity normal
