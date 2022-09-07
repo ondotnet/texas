@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Texas.Persistence", "Texas.Persistence\Texas.Persistence.csproj", "{131025B5-380C-4905-A02C-66DF2F020548}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Texas.XunitTests", "Texas.XunitTests\Texas.XunitTests.csproj", "{E056A994-BE76-4A96-AC57-BA25D31E8A93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadmeAssets", "ReadmeAssets", "{25BC5C5D-2799-4D96-A2F0-6E25BCE74E91}"
+	ProjectSection(SolutionItems) = preProject
+		.gitkeep = .gitkeep
+		ReadmeAssets\epic-story-task.excalidraw = ReadmeAssets\epic-story-task.excalidraw
+		ReadmeAssets\epic-story-task.png = ReadmeAssets\epic-story-task.png
+		ReadmeAssets\epic-story-task.svg = ReadmeAssets\epic-story-task.svg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{76AAF8C8-B8E7-4306-9DD8-41FD4D4B0852}"
+	ProjectSection(SolutionItems) = preProject
+		.gitkeep = .gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0001-InitialTableCreation", "0001-InitialTableCreation", "{546E97F2-5910-4AC5-9B1F-C0EE384D55E1}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\0001-InitialTableCreation\00001-CreatePersonTable.sql = Scripts\0001-InitialTableCreation\00001-CreatePersonTable.sql
+		Scripts\0001-InitialTableCreation\00002-AddPersons.sql = Scripts\0001-InitialTableCreation\00002-AddPersons.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{131025B5-380C-4905-A02C-66DF2F020548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131025B5-380C-4905-A02C-66DF2F020548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131025B5-380C-4905-A02C-66DF2F020548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131025B5-380C-4905-A02C-66DF2F020548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E056A994-BE76-4A96-AC57-BA25D31E8A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E056A994-BE76-4A96-AC57-BA25D31E8A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E056A994-BE76-4A96-AC57-BA25D31E8A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E056A994-BE76-4A96-AC57-BA25D31E8A93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{546E97F2-5910-4AC5-9B1F-C0EE384D55E1} = {76AAF8C8-B8E7-4306-9DD8-41FD4D4B0852}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BAD545F-BD25-4D21-B239-E5155D7DFAAB}
+	EndGlobalSection
+EndGlobal
