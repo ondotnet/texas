@@ -23,6 +23,4 @@ jobs:
         XUNIT_CONNECTION_STRING: ${{ secrets.UNITTESTCONNECTIONSTRING }}
       run: |
         dotnet user-secrets set "ConnectionStrings:Default" "${{ secrets.UNITTESTCONNECTIONSTRING }}"
-        pwd
-        ls -a
-        dotnet test --project Texas.XunitTests/Texas.XunitTests.csproj --no-build --verbosity normal
+        dotnet test --project=Texas.XunitTests/Texas.XunitTests.csproj --no-build --verbosity normal
