@@ -1,9 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Moq;
-using Texas.Persistence.DataAccess;
-using Texas.Persistence.Model;
-
 namespace Texas.XunitTests;
 
 public class PersonTests
