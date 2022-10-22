@@ -25,7 +25,8 @@ public class PersonTests
     public async void Person_ShouldHaveReturn()
     {
         // Arrange
-        string _connectionString = Configuration["ConnectionStrings:Default"];
+        string _connectionString = string.IsNullOrWhiteSpace(Configuration["ConnectionStrings:Bitio"]) 
+            ? Configuration["ConnectionStrings:Default"] : Configuration["ConnectionStrings:Bitio"];
         Mock<ILogger<PersonDb>> mock = new();
         ILogger<PersonDb> logger = mock.Object;
         PersonDb access = new(_connectionString, logger);
