@@ -2,11 +2,11 @@
   All projects are up-to-date for restore.
   Texas.Persistence -> /home/kushal/src/dotnet/texas/Texas.Persistence/bin/Debug/net6.0/Texas.Persistence.dll
 /home/kushal/src/dotnet/texas/Texas.XunitTests/LegalNameTests.cs(22,32): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
+/home/kushal/src/dotnet/texas/Texas.XunitTests/PreferredNameTests.cs(19,36): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
 /home/kushal/src/dotnet/texas/Texas.XunitTests/LegalNameTests.cs(23,39): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
+/home/kushal/src/dotnet/texas/Texas.XunitTests/PreferredNameTests.cs(20,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
 /home/kushal/src/dotnet/texas/Texas.XunitTests/TitleTests.cs(19,28): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
 /home/kushal/src/dotnet/texas/Texas.XunitTests/TitleTests.cs(20,35): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
-/home/kushal/src/dotnet/texas/Texas.XunitTests/PreferredNameTests.cs(19,36): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
-/home/kushal/src/dotnet/texas/Texas.XunitTests/PreferredNameTests.cs(20,43): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
 /home/kushal/src/dotnet/texas/Texas.XunitTests/EmailAddressTests.cs(19,48): warning CS8625: Cannot convert null literal to non-nullable reference type. [/home/kushal/src/dotnet/texas/Texas.XunitTests/Texas.XunitTests.csproj]
   Texas.XunitTests -> /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll
 Test run for /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (.NETCoreApp,Version=v6.0)
@@ -16,24 +16,124 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-Minimum ping was 9
-Maximum ping was 26
-Minimum ping was 15.35
-For 1.1.1.1: 
+RoundTrip time in attempt0: 15
+RoundTrip time in attempt1: 15
+RoundTrip time in attempt2: 15
+RoundTrip time in attempt3: 17
+RoundTrip time in attempt4: 17
+RoundTrip time in attempt5: 18
+RoundTrip time in attempt6: 26
+RoundTrip time in attempt7: 15
+RoundTrip time in attempt8: 13
+RoundTrip time in attempt9: 12
+RoundTrip time in attempt10: 11
+RoundTrip time in attempt11: 10
+RoundTrip time in attempt12: 39
+RoundTrip time in attempt13: 12
+RoundTrip time in attempt14: 11
+RoundTrip time in attempt15: 12
+RoundTrip time in attempt16: 16
+RoundTrip time in attempt17: 23
+RoundTrip time in attempt18: 10
+RoundTrip time in attempt19: 13
 Minimum ping was 10
-Maximum ping was 22
-Minimum ping was 14.35
+Maximum ping was 39
+Minimum ping was 16
+For 1.1.1.1: 
+RoundTrip time in attempt0: 14
+RoundTrip time in attempt1: 13
+RoundTrip time in attempt2: 14
+RoundTrip time in attempt3: 14
+RoundTrip time in attempt4: 18
+RoundTrip time in attempt5: 15
+RoundTrip time in attempt6: 18
+RoundTrip time in attempt7: 10
+RoundTrip time in attempt8: 14
+RoundTrip time in attempt9: 24
+RoundTrip time in attempt10: 24
+RoundTrip time in attempt11: 12
+RoundTrip time in attempt12: 22
+RoundTrip time in attempt13: 15
+RoundTrip time in attempt14: 21
+RoundTrip time in attempt15: 11
+RoundTrip time in attempt16: 19
+RoundTrip time in attempt17: 14
+RoundTrip time in attempt18: 14
+RoundTrip time in attempt19: 10
+Minimum ping was 10
+Maximum ping was 24
+Minimum ping was 15.8
 For 8.8.4.4: 
+RoundTrip time in attempt0: 27
+RoundTrip time in attempt1: 24
+RoundTrip time in attempt2: 18
+RoundTrip time in attempt3: 18
+RoundTrip time in attempt4: 30
+RoundTrip time in attempt5: 22
+RoundTrip time in attempt6: 21
+RoundTrip time in attempt7: 24
+RoundTrip time in attempt8: 27
+RoundTrip time in attempt9: 21
+RoundTrip time in attempt10: 19
+RoundTrip time in attempt11: 19
+RoundTrip time in attempt12: 29
+RoundTrip time in attempt13: 19
+RoundTrip time in attempt14: 20
+RoundTrip time in attempt15: 21
+RoundTrip time in attempt16: 17
+RoundTrip time in attempt17: 22
+RoundTrip time in attempt18: 20
+RoundTrip time in attempt19: 21
 Minimum ping was 17
-Maximum ping was 31
-Minimum ping was 20.55
+Maximum ping was 30
+Minimum ping was 21.95
 For 8.8.8.8: 
-Minimum ping was 9
-Maximum ping was 28
-Minimum ping was 13.55
+RoundTrip time in attempt0: 8
+RoundTrip time in attempt1: 9
+RoundTrip time in attempt2: 9
+RoundTrip time in attempt3: 17
+RoundTrip time in attempt4: 11
+RoundTrip time in attempt5: 10
+RoundTrip time in attempt6: 13
+RoundTrip time in attempt7: 19
+RoundTrip time in attempt8: 13
+RoundTrip time in attempt9: 20
+RoundTrip time in attempt10: 22
+RoundTrip time in attempt11: 9
+RoundTrip time in attempt12: 11
+RoundTrip time in attempt13: 12
+RoundTrip time in attempt14: 11
+RoundTrip time in attempt15: 16
+RoundTrip time in attempt16: 11
+RoundTrip time in attempt17: 13
+RoundTrip time in attempt18: 9
+RoundTrip time in attempt19: 9
+Minimum ping was 8
+Maximum ping was 22
+Minimum ping was 12.6
 For 192.168.12.1: 
+RoundTrip time in attempt0: 1
+RoundTrip time in attempt1: 1
+RoundTrip time in attempt2: 1
+RoundTrip time in attempt3: 1
+RoundTrip time in attempt4: 1
+RoundTrip time in attempt5: 1
+RoundTrip time in attempt6: 1
+RoundTrip time in attempt7: 1
+RoundTrip time in attempt8: 1
+RoundTrip time in attempt9: 1
+RoundTrip time in attempt10: 1
+RoundTrip time in attempt11: 1
+RoundTrip time in attempt12: 1
+RoundTrip time in attempt13: 1
+RoundTrip time in attempt14: 1
+RoundTrip time in attempt15: 1
+RoundTrip time in attempt16: 1
+RoundTrip time in attempt17: 1
+RoundTrip time in attempt18: 1
+RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 2
-Minimum ping was 1.05
+Maximum ping was 1
+Minimum ping was 1
 
 Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 1 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
