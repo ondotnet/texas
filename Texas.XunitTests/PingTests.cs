@@ -38,13 +38,13 @@ public class PingTests
                 // Console.WriteLine("Buffer size: {0}", reply?.Buffer.Length);
                 roundTripTimes.Add(reply.RoundtripTime);
             }
-            long minimum = roundTripTimes.Min();
-            long maximum = roundTripTimes.Max();
-            double average = roundTripTimes.Average();
-            Console.WriteLine("For {0}: ", reply?.Address);
-            Console.WriteLine("Minimum ping was {0}", minimum);
-            Console.WriteLine("Maximum ping was {0}", maximum);
-            Console.WriteLine("Minimum ping was {0}", average);
         }
+        long minimum = roundTripTimes.Min();
+        long maximum = roundTripTimes.Max();
+        double average = roundTripTimes.Average();
+        Console.WriteLine("For {0}: ", destination);
+        Console.WriteLine("Minimum ping was {0}", minimum);
+        Console.WriteLine("Maximum ping was {0}", maximum);
+        Console.WriteLine("Minimum ping was {0}", average);
     }
 }
