@@ -47,7 +47,7 @@ public class PingTests
             double average = roundTripTimes.Average();
             Console.WriteLine("Minimum ping was {0}", minimum);
             Console.WriteLine("Maximum ping was {0}", maximum);
-            Console.WriteLine("Minimum ping was {0}", average);
+            Console.WriteLine("Average ping was {0}", average);
             if (totalCount > roundTripTimes.Count)
             {
                 Console.WriteLine("{0} ping requests sent, {1} failed to return", totalCount, totalCount - roundTripTimes.Count);
