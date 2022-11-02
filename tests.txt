@@ -9,115 +9,74 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 52
-RoundTrip time in attempt1: 38
-RoundTrip time in attempt2: 37
-RoundTrip time in attempt3: 41
-RoundTrip time in attempt5: 54
-RoundTrip time in attempt6: 22
-RoundTrip time in attempt7: 44
-RoundTrip time in attempt8: 39
-RoundTrip time in attempt9: 31
+RoundTrip time in attempt0: 27
+RoundTrip time in attempt1: 43
+RoundTrip time in attempt2: 46
+RoundTrip time in attempt3: 60
+RoundTrip time in attempt4: 54
+RoundTrip time in attempt5: 50
+RoundTrip time in attempt6: 40
+RoundTrip time in attempt7: 25
+RoundTrip time in attempt8: 30
+RoundTrip time in attempt9: 30
 RoundTrip time in attempt10: 45
-RoundTrip time in attempt11: 32
-RoundTrip time in attempt12: 46
-RoundTrip time in attempt13: 32
-RoundTrip time in attempt14: 38
-RoundTrip time in attempt15: 36
-RoundTrip time in attempt16: 26
-RoundTrip time in attempt17: 63
-RoundTrip time in attempt18: 59
-RoundTrip time in attempt19: 39
-Minimum ping was 22
-Maximum ping was 63
-Average ping was 40.73684210526316
-20 ping requests sent, 1 failed to return
-For 1.1.1.1: 
-RoundTrip time in attempt0: 38
-RoundTrip time in attempt1: 60
-RoundTrip time in attempt2: 56
-RoundTrip time in attempt3: 35
-RoundTrip time in attempt4: 36
-RoundTrip time in attempt5: 45
-RoundTrip time in attempt6: 32
-RoundTrip time in attempt7: 38
-RoundTrip time in attempt8: 46
-RoundTrip time in attempt9: 28
-RoundTrip time in attempt10: 36
-RoundTrip time in attempt11: 39
-RoundTrip time in attempt12: 54
-RoundTrip time in attempt13: 29
-RoundTrip time in attempt14: 45
-RoundTrip time in attempt15: 28
-RoundTrip time in attempt16: 39
-RoundTrip time in attempt17: 38
-RoundTrip time in attempt18: 47
-RoundTrip time in attempt19: 45
-Minimum ping was 28
-Maximum ping was 60
-Average ping was 40.7
-For 8.8.4.4: 
-RoundTrip time in attempt0: 30
-RoundTrip time in attempt1: 50
-RoundTrip time in attempt2: 64
-RoundTrip time in attempt3: 41
-RoundTrip time in attempt4: 37
-RoundTrip time in attempt5: 41
-RoundTrip time in attempt6: 38
-RoundTrip time in attempt7: 38
-RoundTrip time in attempt8: 46
-RoundTrip time in attempt9: 31
-RoundTrip time in attempt10: 37
-RoundTrip time in attempt11: 37
-RoundTrip time in attempt12: 50
-RoundTrip time in attempt13: 75
-RoundTrip time in attempt14: 62
+RoundTrip time in attempt12: 76
+RoundTrip time in attempt14: 57
 RoundTrip time in attempt15: 44
-RoundTrip time in attempt16: 66
-RoundTrip time in attempt17: 35
-RoundTrip time in attempt18: 36
-RoundTrip time in attempt19: 34
-Minimum ping was 30
-Maximum ping was 75
-Average ping was 44.6
+Minimum ping was 25
+Maximum ping was 76
+Average ping was 44.785714285714285
+20 ping requests sent, 6 failed to return
+For 1.1.1.1: 
+RoundTrip time in attempt4: 102
+RoundTrip time in attempt5: 69
+RoundTrip time in attempt11: 90
+RoundTrip time in attempt12: 69
+RoundTrip time in attempt13: 85
+RoundTrip time in attempt14: 86
+RoundTrip time in attempt15: 61
+RoundTrip time in attempt16: 51
+RoundTrip time in attempt17: 59
+Minimum ping was 51
+Maximum ping was 102
+Average ping was 74.66666666666667
+20 ping requests sent, 11 failed to return
+For 8.8.4.4: 
+RoundTrip time in attempt6: 87
+RoundTrip time in attempt7: 112
+RoundTrip time in attempt15: 56
+RoundTrip time in attempt16: 54
+RoundTrip time in attempt17: 45
+RoundTrip time in attempt18: 101
+RoundTrip time in attempt19: 68
+Minimum ping was 45
+Maximum ping was 112
+Average ping was 74.71428571428571
+20 ping requests sent, 13 failed to return
 For 8.8.8.8: 
-RoundTrip time in attempt0: 37
-RoundTrip time in attempt1: 30
-RoundTrip time in attempt2: 32
-RoundTrip time in attempt3: 38
-RoundTrip time in attempt4: 35
-RoundTrip time in attempt5: 42
-RoundTrip time in attempt6: 29
-RoundTrip time in attempt7: 35
-RoundTrip time in attempt8: 28
-RoundTrip time in attempt9: 44
-RoundTrip time in attempt10: 33
-RoundTrip time in attempt11: 38
-RoundTrip time in attempt12: 35
-RoundTrip time in attempt13: 36
-RoundTrip time in attempt14: 42
-RoundTrip time in attempt15: 29
-RoundTrip time in attempt16: 43
-RoundTrip time in attempt17: 36
-RoundTrip time in attempt18: 28
-RoundTrip time in attempt19: 43
-Minimum ping was 28
-Maximum ping was 44
-Average ping was 35.65
+RoundTrip time in attempt1: 86
+RoundTrip time in attempt2: 36
+RoundTrip time in attempt3: 37
+RoundTrip time in attempt5: 66
+RoundTrip time in attempt6: 37
+RoundTrip time in attempt7: 52
+Minimum ping was 36
+Maximum ping was 86
+Average ping was 52.333333333333336
+20 ping requests sent, 14 failed to return
 For 192.168.12.1: 
 RoundTrip time in attempt0: 1
-RoundTrip time in attempt1: 1
-RoundTrip time in attempt2: 1
-RoundTrip time in attempt3: 1
-RoundTrip time in attempt4: 2
+RoundTrip time in attempt1: 2
+RoundTrip time in attempt3: 3
+RoundTrip time in attempt4: 1
 RoundTrip time in attempt5: 1
 RoundTrip time in attempt6: 1
-RoundTrip time in attempt7: 1
-RoundTrip time in attempt8: 1
-RoundTrip time in attempt9: 1
-RoundTrip time in attempt10: 1
+RoundTrip time in attempt7: 2
+RoundTrip time in attempt8: 9
+RoundTrip time in attempt9: 2
+RoundTrip time in attempt10: 3
 RoundTrip time in attempt11: 1
-RoundTrip time in attempt12: 2
+RoundTrip time in attempt12: 1
 RoundTrip time in attempt13: 1
 RoundTrip time in attempt14: 1
 RoundTrip time in attempt15: 1
@@ -126,7 +85,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 2
-Average ping was 1.1
+Maximum ping was 9
+Average ping was 1.7894736842105263
+20 ping requests sent, 1 failed to return
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 3 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 7 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
