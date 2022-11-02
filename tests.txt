@@ -9,102 +9,103 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 21
-RoundTrip time in attempt1: 18
-RoundTrip time in attempt2: 23
-RoundTrip time in attempt3: 13
-RoundTrip time in attempt4: 13
-RoundTrip time in attempt5: 19
-RoundTrip time in attempt6: 24
-RoundTrip time in attempt7: 14
-RoundTrip time in attempt8: 24
-RoundTrip time in attempt9: 18
-RoundTrip time in attempt10: 15
-RoundTrip time in attempt11: 18
-RoundTrip time in attempt12: 19
-RoundTrip time in attempt13: 16
-RoundTrip time in attempt14: 23
-RoundTrip time in attempt15: 12
-RoundTrip time in attempt16: 52
-RoundTrip time in attempt17: 16
-RoundTrip time in attempt18: 14
-RoundTrip time in attempt19: 14
-Minimum ping was 12
-Maximum ping was 52
-Average ping was 19.3
-For 1.1.1.1: 
-RoundTrip time in attempt0: 26
-RoundTrip time in attempt1: 14
-RoundTrip time in attempt2: 15
-RoundTrip time in attempt3: 13
-RoundTrip time in attempt4: 19
-RoundTrip time in attempt5: 17
-RoundTrip time in attempt6: 18
-RoundTrip time in attempt7: 12
-RoundTrip time in attempt8: 12
-RoundTrip time in attempt9: 16
-RoundTrip time in attempt10: 17
-RoundTrip time in attempt11: 20
-RoundTrip time in attempt12: 18
-RoundTrip time in attempt13: 23
-RoundTrip time in attempt14: 13
-RoundTrip time in attempt15: 9
-RoundTrip time in attempt16: 24
-RoundTrip time in attempt17: 15
-RoundTrip time in attempt18: 13
-RoundTrip time in attempt19: 18
-Minimum ping was 9
-Maximum ping was 26
-Average ping was 16.6
-For 8.8.4.4: 
-RoundTrip time in attempt0: 21
-RoundTrip time in attempt1: 28
+RoundTrip time in attempt0: 51
+RoundTrip time in attempt1: 16
 RoundTrip time in attempt2: 19
-RoundTrip time in attempt3: 26
-RoundTrip time in attempt4: 22
-RoundTrip time in attempt5: 28
-RoundTrip time in attempt6: 24
-RoundTrip time in attempt7: 30
-RoundTrip time in attempt8: 34
-RoundTrip time in attempt9: 48
-RoundTrip time in attempt12: 29
-RoundTrip time in attempt13: 61
-RoundTrip time in attempt14: 42
-RoundTrip time in attempt15: 42
-RoundTrip time in attempt16: 95
-RoundTrip time in attempt17: 40
-RoundTrip time in attempt18: 28
-RoundTrip time in attempt19: 24
-Minimum ping was 19
-Maximum ping was 95
-Average ping was 35.611111111111114
-20 ping requests sent, 2 failed to return
-For 8.8.8.8: 
-RoundTrip time in attempt0: 33
-RoundTrip time in attempt1: 22
-RoundTrip time in attempt2: 13
-RoundTrip time in attempt3: 12
-RoundTrip time in attempt4: 15
-RoundTrip time in attempt5: 25
-RoundTrip time in attempt6: 18
-RoundTrip time in attempt7: 19
-RoundTrip time in attempt8: 16
-RoundTrip time in attempt9: 12
-RoundTrip time in attempt10: 23
-RoundTrip time in attempt11: 10
-RoundTrip time in attempt12: 12
-RoundTrip time in attempt13: 18
-RoundTrip time in attempt14: 21
-RoundTrip time in attempt15: 21
-RoundTrip time in attempt16: 28
-RoundTrip time in attempt17: 18
-RoundTrip time in attempt18: 36
-RoundTrip time in attempt19: 41
+RoundTrip time in attempt3: 19
+RoundTrip time in attempt4: 21
+RoundTrip time in attempt5: 36
+RoundTrip time in attempt6: 10
+RoundTrip time in attempt7: 17
+RoundTrip time in attempt8: 31
+RoundTrip time in attempt9: 18
+RoundTrip time in attempt10: 19
+RoundTrip time in attempt11: 60
+RoundTrip time in attempt12: 18
+RoundTrip time in attempt13: 17
+RoundTrip time in attempt14: 18
+RoundTrip time in attempt15: 50
+RoundTrip time in attempt16: 50
+RoundTrip time in attempt17: 13
+RoundTrip time in attempt18: 22
+RoundTrip time in attempt19: 13
 Minimum ping was 10
-Maximum ping was 41
-Average ping was 20.65
+Maximum ping was 60
+Average ping was 25.9
+For 1.1.1.1: 
+RoundTrip time in attempt0: 18
+RoundTrip time in attempt1: 11
+RoundTrip time in attempt2: 21
+RoundTrip time in attempt3: 20
+RoundTrip time in attempt4: 12
+RoundTrip time in attempt5: 15
+RoundTrip time in attempt6: 16
+RoundTrip time in attempt7: 11
+RoundTrip time in attempt8: 58
+RoundTrip time in attempt9: 23
+RoundTrip time in attempt10: 17
+RoundTrip time in attempt11: 17
+RoundTrip time in attempt12: 16
+RoundTrip time in attempt13: 21
+RoundTrip time in attempt14: 68
+RoundTrip time in attempt15: 17
+RoundTrip time in attempt16: 18
+RoundTrip time in attempt17: 55
+RoundTrip time in attempt18: 13
+RoundTrip time in attempt19: 22
+Minimum ping was 11
+Maximum ping was 68
+Average ping was 23.45
+For 8.8.4.4: 
+RoundTrip time in attempt0: 76
+RoundTrip time in attempt1: 59
+RoundTrip time in attempt2: 52
+RoundTrip time in attempt3: 31
+RoundTrip time in attempt4: 30
+RoundTrip time in attempt5: 22
+RoundTrip time in attempt6: 21
+RoundTrip time in attempt7: 52
+RoundTrip time in attempt8: 21
+RoundTrip time in attempt9: 86
+RoundTrip time in attempt10: 19
+RoundTrip time in attempt11: 28
+RoundTrip time in attempt12: 69
+RoundTrip time in attempt13: 56
+RoundTrip time in attempt14: 19
+RoundTrip time in attempt15: 26
+RoundTrip time in attempt16: 39
+RoundTrip time in attempt17: 22
+RoundTrip time in attempt18: 26
+RoundTrip time in attempt19: 26
+Minimum ping was 19
+Maximum ping was 86
+Average ping was 39
+For 8.8.8.8: 
+RoundTrip time in attempt0: 17
+RoundTrip time in attempt1: 20
+RoundTrip time in attempt2: 21
+RoundTrip time in attempt3: 14
+RoundTrip time in attempt4: 27
+RoundTrip time in attempt5: 36
+RoundTrip time in attempt6: 26
+RoundTrip time in attempt7: 12
+RoundTrip time in attempt8: 30
+RoundTrip time in attempt9: 25
+RoundTrip time in attempt10: 16
+RoundTrip time in attempt11: 16
+RoundTrip time in attempt12: 60
+RoundTrip time in attempt13: 18
+RoundTrip time in attempt14: 15
+RoundTrip time in attempt15: 22
+RoundTrip time in attempt16: 55
+RoundTrip time in attempt17: 10
+RoundTrip time in attempt18: 22
+RoundTrip time in attempt19: 14
+Minimum ping was 10
+Maximum ping was 60
+Average ping was 23.8
 For 192.168.12.1: 
-RoundTrip time in attempt0: 2
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
@@ -112,38 +113,20 @@ RoundTrip time in attempt4: 1
 RoundTrip time in attempt5: 1
 RoundTrip time in attempt6: 1
 RoundTrip time in attempt7: 1
-RoundTrip time in attempt8: 2
+RoundTrip time in attempt8: 1
 RoundTrip time in attempt9: 1
-RoundTrip time in attempt10: 2
+RoundTrip time in attempt10: 1
 RoundTrip time in attempt11: 1
 RoundTrip time in attempt12: 1
 RoundTrip time in attempt13: 1
 RoundTrip time in attempt14: 1
 RoundTrip time in attempt15: 1
-RoundTrip time in attempt16: 1
+RoundTrip time in attempt16: 2
 RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
 Maximum ping was 2
-Average ping was 1.15
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [4 s]
-  Error Message:
-   Npgsql.NpgsqlException : Exception while reading from stream
----- System.IO.EndOfStreamException : Attempted to read past the end of the stream.
-  Stack Trace:
-     at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
-   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
-   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
-   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
-   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
-   at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
-   at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
-   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
------ Inner Stack Trace -----
-   at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
+Average ping was 1.05
 
-Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 4 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 2 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
