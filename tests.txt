@@ -13,30 +13,30 @@ For 1.1.1.1:
 For 8.8.4.4: 
 For 8.8.8.8: 
 For 192.168.12.1: 
-RoundTrip time in attempt0: 3
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 2
-RoundTrip time in attempt5: 1
-RoundTrip time in attempt6: 1
-RoundTrip time in attempt7: 1
+RoundTrip time in attempt5: 2
+RoundTrip time in attempt6: 2
+RoundTrip time in attempt7: 2
 RoundTrip time in attempt8: 1
 RoundTrip time in attempt9: 1
-RoundTrip time in attempt10: 1
+RoundTrip time in attempt10: 2
 RoundTrip time in attempt11: 1
-RoundTrip time in attempt12: 1
+RoundTrip time in attempt12: 2
 RoundTrip time in attempt13: 1
 RoundTrip time in attempt14: 1
 RoundTrip time in attempt15: 1
 RoundTrip time in attempt16: 1
-RoundTrip time in attempt17: 1
+RoundTrip time in attempt17: 2
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 3
-Average ping was 1.15
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [12 s]
+Maximum ping was 2
+Average ping was 1.35
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [14 s]
   Error Message:
    Npgsql.NpgsqlException : Exception while reading from stream
 ---- System.IO.IOException : Unable to read data from the transport connection: Connection reset by peer.
@@ -60,4 +60,4 @@ Average ping was 1.15
 ----- Inner Stack Trace -----
 
 
-Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 13 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 14 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
