@@ -9,91 +9,101 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 41
-RoundTrip time in attempt1: 29
-RoundTrip time in attempt2: 46
-RoundTrip time in attempt3: 38
-RoundTrip time in attempt4: 37
-RoundTrip time in attempt5: 55
-RoundTrip time in attempt6: 20
-RoundTrip time in attempt7: 38
-RoundTrip time in attempt8: 31
-RoundTrip time in attempt9: 40
-RoundTrip time in attempt10: 46
-RoundTrip time in attempt14: 56
-RoundTrip time in attempt15: 22
-RoundTrip time in attempt16: 33
-RoundTrip time in attempt18: 71
-RoundTrip time in attempt19: 38
-Minimum ping was 20
-Maximum ping was 71
-Average ping was 40.0625
-20 ping requests sent, 4 failed to return
+RoundTrip time in attempt0: 32
+RoundTrip time in attempt1: 40
+RoundTrip time in attempt2: 43
+RoundTrip time in attempt3: 42
+RoundTrip time in attempt4: 28
+RoundTrip time in attempt5: 41
+RoundTrip time in attempt6: 44
+RoundTrip time in attempt7: 33
+RoundTrip time in attempt8: 39
+RoundTrip time in attempt9: 45
+RoundTrip time in attempt10: 40
+RoundTrip time in attempt11: 34
+RoundTrip time in attempt12: 35
+RoundTrip time in attempt13: 43
+RoundTrip time in attempt14: 42
+RoundTrip time in attempt15: 28
+RoundTrip time in attempt16: 43
+RoundTrip time in attempt17: 31
+RoundTrip time in attempt18: 44
+RoundTrip time in attempt19: 22
+Minimum ping was 22
+Maximum ping was 45
+Average ping was 37.45
 For 1.1.1.1: 
-RoundTrip time in attempt0: 42
-RoundTrip time in attempt1: 32
-RoundTrip time in attempt2: 38
-RoundTrip time in attempt3: 61
-RoundTrip time in attempt4: 62
+RoundTrip time in attempt0: 56
+RoundTrip time in attempt1: 30
+RoundTrip time in attempt2: 40
+RoundTrip time in attempt3: 42
+RoundTrip time in attempt4: 27
 RoundTrip time in attempt5: 38
-RoundTrip time in attempt6: 29
-RoundTrip time in attempt10: 39
-RoundTrip time in attempt11: 42
-RoundTrip time in attempt12: 57
-RoundTrip time in attempt15: 108
-RoundTrip time in attempt16: 24
-RoundTrip time in attempt18: 93
-RoundTrip time in attempt19: 60
-Minimum ping was 24
-Maximum ping was 108
-Average ping was 51.785714285714285
-20 ping requests sent, 6 failed to return
-For 8.8.4.4: 
-RoundTrip time in attempt0: 34
-RoundTrip time in attempt2: 33
-RoundTrip time in attempt3: 52
-RoundTrip time in attempt4: 37
-RoundTrip time in attempt5: 63
-RoundTrip time in attempt6: 40
-RoundTrip time in attempt7: 26
-RoundTrip time in attempt8: 67
-RoundTrip time in attempt9: 58
-RoundTrip time in attempt10: 47
-RoundTrip time in attempt11: 35
-RoundTrip time in attempt12: 75
-RoundTrip time in attempt13: 70
-RoundTrip time in attempt14: 41
-RoundTrip time in attempt15: 42
-RoundTrip time in attempt16: 66
-RoundTrip time in attempt17: 40
+RoundTrip time in attempt6: 54
+RoundTrip time in attempt7: 24
+RoundTrip time in attempt8: 48
+RoundTrip time in attempt9: 39
+RoundTrip time in attempt10: 48
+RoundTrip time in attempt11: 59
+RoundTrip time in attempt12: 36
+RoundTrip time in attempt13: 32
+RoundTrip time in attempt14: 45
+RoundTrip time in attempt15: 61
+RoundTrip time in attempt16: 58
+RoundTrip time in attempt17: 41
 RoundTrip time in attempt18: 33
-RoundTrip time in attempt19: 36
-Minimum ping was 26
-Maximum ping was 75
-Average ping was 47.10526315789474
-20 ping requests sent, 1 failed to return
-For 8.8.8.8: 
-RoundTrip time in attempt0: 55
-RoundTrip time in attempt1: 56
-RoundTrip time in attempt2: 52
-RoundTrip time in attempt3: 38
-RoundTrip time in attempt4: 57
-RoundTrip time in attempt6: 68
-RoundTrip time in attempt7: 54
-RoundTrip time in attempt8: 66
-RoundTrip time in attempt9: 68
-RoundTrip time in attempt10: 61
+RoundTrip time in attempt19: 41
+Minimum ping was 24
+Maximum ping was 61
+Average ping was 42.6
+For 8.8.4.4: 
+RoundTrip time in attempt0: 54
+RoundTrip time in attempt1: 34
+RoundTrip time in attempt2: 66
+RoundTrip time in attempt3: 40
+RoundTrip time in attempt4: 37
+RoundTrip time in attempt5: 40
+RoundTrip time in attempt6: 39
+RoundTrip time in attempt7: 38
+RoundTrip time in attempt8: 56
+RoundTrip time in attempt9: 63
+RoundTrip time in attempt10: 43
 RoundTrip time in attempt11: 30
-RoundTrip time in attempt12: 23
-RoundTrip time in attempt13: 39
-RoundTrip time in attempt14: 59
-RoundTrip time in attempt16: 69
-RoundTrip time in attempt17: 95
-RoundTrip time in attempt19: 46
-Minimum ping was 23
-Maximum ping was 95
-Average ping was 55.05882352941177
-20 ping requests sent, 3 failed to return
+RoundTrip time in attempt12: 48
+RoundTrip time in attempt13: 65
+RoundTrip time in attempt14: 40
+RoundTrip time in attempt15: 35
+RoundTrip time in attempt16: 54
+RoundTrip time in attempt17: 58
+RoundTrip time in attempt18: 41
+RoundTrip time in attempt19: 35
+Minimum ping was 30
+Maximum ping was 66
+Average ping was 45.8
+For 8.8.8.8: 
+RoundTrip time in attempt0: 32
+RoundTrip time in attempt1: 34
+RoundTrip time in attempt2: 38
+RoundTrip time in attempt3: 38
+RoundTrip time in attempt4: 30
+RoundTrip time in attempt5: 36
+RoundTrip time in attempt6: 37
+RoundTrip time in attempt7: 44
+RoundTrip time in attempt8: 40
+RoundTrip time in attempt9: 25
+RoundTrip time in attempt10: 39
+RoundTrip time in attempt11: 37
+RoundTrip time in attempt12: 36
+RoundTrip time in attempt13: 51
+RoundTrip time in attempt14: 32
+RoundTrip time in attempt15: 26
+RoundTrip time in attempt16: 63
+RoundTrip time in attempt17: 54
+RoundTrip time in attempt18: 32
+RoundTrip time in attempt19: 67
+Minimum ping was 25
+Maximum ping was 67
+Average ping was 39.55
 For 192.168.12.1: 
 RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
@@ -109,14 +119,14 @@ RoundTrip time in attempt10: 1
 RoundTrip time in attempt11: 1
 RoundTrip time in attempt12: 1
 RoundTrip time in attempt13: 1
-RoundTrip time in attempt14: 1
+RoundTrip time in attempt14: 2
 RoundTrip time in attempt15: 1
 RoundTrip time in attempt16: 1
 RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 1
-Average ping was 1
+Maximum ping was 2
+Average ping was 1.05
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 5 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 3 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
