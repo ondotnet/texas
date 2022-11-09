@@ -26,7 +26,7 @@ public class PingTests
         PingOptions options = new();
         PingItem highScore = new();
 
-        CheckForExistingHighScore("ping.txt");
+        CheckForExistingHighScore("ping.txt", '|');
 
         // Use the default Ttl value which is 128,
         // but change the fragmentation behavior.
@@ -80,14 +80,23 @@ public class PingTests
         }
     }
 
-    private PingItem CheckForExistingHighScore(string path)
+    private PingItem? CheckForExistingHighScore(string path, char delimiter)
     {
-        if (File.Exists("ping.txt"))
+        if (!File.Exists(path))
         {
-            var pings = File.ReadAllLines("ping.txt");
-            if (pings == null || pings.Length == 0)
-
-
+            return null;
         }
+        string[] pings = File.ReadAllLines(path);
+        if (pings == null || pings.Length == 0)
+        {
+            return null;
+        }
+        string pingString = pings[0];
+        string[] pingItemStrings = pingString.Split(delimiter);
+        if (pingItemStrings == null || pingItemStrings.Length != 3)
+        {
+            return null;
+        }
+        return null;
     }
 }
