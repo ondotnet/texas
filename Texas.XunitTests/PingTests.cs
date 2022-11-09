@@ -3,6 +3,11 @@ using System.Text;
 
 namespace Texas.XunitTests;
 
+public class Ping
+{
+    
+}
+
 public class PingTests
 {
     [Theory]
