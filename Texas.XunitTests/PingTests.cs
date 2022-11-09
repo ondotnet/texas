@@ -7,7 +7,7 @@ public class PingItem
 {
     public DateTime EventDate { get; set; }
     public string Destination { get; set; } = "";
-    public int DurationInMilliseconds { get; set; }
+    public long DurationInMilliseconds { get; set; }
 
 }
 
@@ -26,7 +26,11 @@ public class PingTests
         PingOptions options = new();
         PingItem highScore = new();
 
-        CheckForExistingHighScore("ping.txt", '|');
+        PingItem? newHighScore = CheckForExistingHighScore("ping.txt", '|');
+        if (newHighScore != null && newHighScore.DurationInMilliseconds > 0)
+        {
+            highScore = newHighScore;
+        }
 
         // Use the default Ttl value which is 128,
         // but change the fragmentation behavior.
@@ -53,7 +57,7 @@ public class PingTests
                 {
                     // new high score
                     highScore.Destination = destination;
-                    highScore.DurationInMilliseconds = Convert.ToInt32(reply.RoundtripTime);
+                    highScore.DurationInMilliseconds = reply.RoundtripTime;
                     highScore.EventDate = DateTime.Now;
                 }
             }
@@ -92,11 +96,17 @@ public class PingTests
             return null;
         }
         string pingString = pings[0];
-        string[] pingItemStrings = pingString.Split(delimiter);
-        if (pingItemStrings == null || pingItemStrings.Length != 3)
+        string[] pingItemString = pingString.Split(delimiter);
+        if (pingItemString == null || pingItemString.Length != 3)
         {
             return null;
         }
-        return null;
+        PingItem item = new()
+        {
+            DurationInMilliseconds = (long)Convert.ToDouble(pingItemString[0]),
+            Destination = pingItemString[1],
+            EventDate = DateTime.Parse(pingItemString[2])
+        };
+        return item;
     }
 }
