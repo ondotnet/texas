@@ -3,9 +3,12 @@ using System.Text;
 
 namespace Texas.XunitTests;
 
-public class Ping
+public class PingItem
 {
-    
+    public DateTime EventDate { get; set; }
+    public string Destination { get; set; } = "";
+    public int DurationInMilliseconds { get; set; }
+
 }
 
 public class PingTests
@@ -19,8 +22,9 @@ public class PingTests
     public void TestPing(string destination)
     {
         int totalCount = 20;
-        Ping pingSender = new Ping();
-        PingOptions options = new PingOptions();
+        Ping pingSender = new();
+        PingOptions options = new();
+        PingItem highScore = new();
 
         // Use the default Ttl value which is 128,
         // but change the fragmentation behavior.
@@ -43,6 +47,13 @@ public class PingTests
                 // Console.WriteLine("Don't fragment: {0}", reply?.Options?.DontFragment);
                 // Console.WriteLine("Buffer size: {0}", reply?.Buffer.Length);
                 roundTripTimes.Add(reply.RoundtripTime);
+                if (reply.RoundtripTime > highScore.DurationInMilliseconds)
+                {
+                    // new high score
+                    highScore.Destination = destination;
+                    highScore.DurationInMilliseconds = Convert.ToInt32(reply.RoundtripTime);
+                    highScore.EventDate = DateTime.
+                }
             }
         }
         if (roundTripTimes.Any())
