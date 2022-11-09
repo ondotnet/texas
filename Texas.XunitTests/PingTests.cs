@@ -52,7 +52,7 @@ public class PingTests
                     // new high score
                     highScore.Destination = destination;
                     highScore.DurationInMilliseconds = Convert.ToInt32(reply.RoundtripTime);
-                    highScore.EventDate = DateTime.
+                    highScore.EventDate = DateTime.Now;
                 }
             }
         }
@@ -67,6 +67,10 @@ public class PingTests
             if (totalCount > roundTripTimes.Count)
             {
                 Console.WriteLine("{0} ping requests sent, {1} failed to return", totalCount, totalCount - roundTripTimes.Count);
+            }
+            if (highScore != null && highScore.DurationInMilliseconds > 0)
+            {
+                Console.WriteLine("Current high score is {0} for destination {1} at {2}", )
             }
         }
     }
