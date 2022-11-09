@@ -70,7 +70,10 @@ public class PingTests
             }
             if (highScore != null && highScore.DurationInMilliseconds > 0)
             {
-                Console.WriteLine("Current high score is {0} for destination {1} at {2}", )
+                Console.WriteLine("Current high score is {0} for destination {1} at {2} local time", 
+                    highScore.DurationInMilliseconds, highScore.Destination, highScore.EventDate);
+                File.WriteAllText("ping.txt",
+                    $"{highScore.DurationInMilliseconds}|{highScore.Destination}|{highScore.EventDate}");
             }
         }
     }
