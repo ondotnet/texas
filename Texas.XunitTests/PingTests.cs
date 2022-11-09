@@ -26,6 +26,8 @@ public class PingTests
         PingOptions options = new();
         PingItem highScore = new();
 
+        CheckForExistingHighScore("ping.txt");
+
         // Use the default Ttl value which is 128,
         // but change the fragmentation behavior.
         options.DontFragment = true;
@@ -70,11 +72,22 @@ public class PingTests
             }
             if (highScore != null && highScore.DurationInMilliseconds > 0)
             {
-                Console.WriteLine("Current high score is {0} for destination {1} at {2} local time", 
+                Console.WriteLine("Current high score is {0} for destination {1} at {2} local time",
                     highScore.DurationInMilliseconds, highScore.Destination, highScore.EventDate);
                 File.WriteAllText("ping.txt",
                     $"{highScore.DurationInMilliseconds}|{highScore.Destination}|{highScore.EventDate}");
             }
+        }
+    }
+
+    private PingItem CheckForExistingHighScore(string path)
+    {
+        if (File.Exists("ping.txt"))
+        {
+            var pings = File.ReadAllLines("ping.txt");
+            if (pings == null || pings.Length == 0)
+
+
         }
     }
 }
