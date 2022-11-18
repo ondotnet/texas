@@ -9,26 +9,6 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 29
-RoundTrip time in attempt1: 43
-RoundTrip time in attempt2: 44
-RoundTrip time in attempt3: 22
-RoundTrip time in attempt4: 31
-RoundTrip time in attempt5: 31
-RoundTrip time in attempt6: 46
-RoundTrip time in attempt7: 57
-RoundTrip time in attempt8: 31
-RoundTrip time in attempt9: 49
-RoundTrip time in attempt10: 34
-RoundTrip time in attempt11: 30
-RoundTrip time in attempt12: 43
-RoundTrip time in attempt13: 41
-RoundTrip time in attempt14: 62
-Minimum ping was 22
-Maximum ping was 62
-Average ping was 39.53333333333333
-20 ping requests sent, 5 failed to return
-Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 For 1.1.1.1: 
 For 8.8.4.4: 
 For 8.8.8.8: 
@@ -51,11 +31,11 @@ RoundTrip time in attempt14: 1
 RoundTrip time in attempt15: 1
 RoundTrip time in attempt16: 1
 RoundTrip time in attempt17: 1
-RoundTrip time in attempt18: 2
+RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 2
-Average ping was 1.05
+Maximum ping was 1
+Average ping was 1
 Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 8 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 17 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
