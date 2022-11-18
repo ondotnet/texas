@@ -11,35 +11,10 @@ A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
 For 1.1.1.1: 
 For 8.8.4.4: 
-RoundTrip time in attempt7: 93
-RoundTrip time in attempt19: 40
-Minimum ping was 40
-Maximum ping was 93
-Average ping was 66.5
-20 ping requests sent, 18 failed to return
-Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 For 8.8.8.8: 
-RoundTrip time in attempt0: 42
-RoundTrip time in attempt1: 41
-RoundTrip time in attempt2: 54
-RoundTrip time in attempt10: 110
-RoundTrip time in attempt11: 97
-RoundTrip time in attempt12: 32
-RoundTrip time in attempt13: 40
-RoundTrip time in attempt14: 81
-RoundTrip time in attempt15: 55
-RoundTrip time in attempt16: 37
-RoundTrip time in attempt17: 57
-RoundTrip time in attempt18: 54
-RoundTrip time in attempt19: 54
-Minimum ping was 32
-Maximum ping was 110
-Average ping was 58
-20 ping requests sent, 7 failed to return
-Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 For 192.168.12.1: 
 RoundTrip time in attempt0: 1
-RoundTrip time in attempt1: 2
+RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
@@ -55,12 +30,12 @@ RoundTrip time in attempt13: 1
 RoundTrip time in attempt14: 1
 RoundTrip time in attempt15: 1
 RoundTrip time in attempt16: 1
-RoundTrip time in attempt17: 2
+RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 2
-Average ping was 1.1
+Maximum ping was 1
+Average ping was 1
 Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 8 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 9 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
