@@ -9,11 +9,77 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
+RoundTrip time in attempt8: 74
+RoundTrip time in attempt11: 70
+RoundTrip time in attempt12: 36
+RoundTrip time in attempt13: 70
+RoundTrip time in attempt14: 48
+Minimum ping was 36
+Maximum ping was 74
+Average ping was 59.6
+20 ping requests sent, 15 failed to return
+Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 For 1.1.1.1: 
+RoundTrip time in attempt6: 65
+RoundTrip time in attempt8: 117
+RoundTrip time in attempt9: 45
+RoundTrip time in attempt11: 73
+RoundTrip time in attempt12: 50
+RoundTrip time in attempt13: 19
+RoundTrip time in attempt14: 49
+RoundTrip time in attempt17: 84
+RoundTrip time in attempt18: 60
+RoundTrip time in attempt19: 66
+Minimum ping was 19
+Maximum ping was 117
+Average ping was 62.8
+20 ping requests sent, 10 failed to return
+Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 For 8.8.4.4: 
+RoundTrip time in attempt0: 74
+RoundTrip time in attempt3: 75
+RoundTrip time in attempt4: 96
+RoundTrip time in attempt5: 61
+RoundTrip time in attempt6: 48
+RoundTrip time in attempt7: 64
+RoundTrip time in attempt8: 49
+RoundTrip time in attempt9: 69
+RoundTrip time in attempt10: 53
+RoundTrip time in attempt12: 50
+RoundTrip time in attempt13: 80
+RoundTrip time in attempt14: 87
+RoundTrip time in attempt16: 38
+Minimum ping was 38
+Maximum ping was 96
+Average ping was 64.92307692307692
+20 ping requests sent, 7 failed to return
+Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 For 8.8.8.8: 
+RoundTrip time in attempt1: 109
+RoundTrip time in attempt2: 30
+RoundTrip time in attempt3: 44
+RoundTrip time in attempt4: 68
+RoundTrip time in attempt5: 23
+RoundTrip time in attempt6: 43
+RoundTrip time in attempt7: 33
+RoundTrip time in attempt8: 48
+RoundTrip time in attempt9: 30
+RoundTrip time in attempt10: 29
+RoundTrip time in attempt11: 82
+RoundTrip time in attempt12: 81
+RoundTrip time in attempt13: 38
+RoundTrip time in attempt14: 34
+RoundTrip time in attempt15: 38
+RoundTrip time in attempt16: 39
+RoundTrip time in attempt18: 35
+RoundTrip time in attempt19: 66
+Minimum ping was 23
+Maximum ping was 109
+Average ping was 48.333333333333336
+20 ping requests sent, 2 failed to return
+Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 3
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
@@ -24,7 +90,7 @@ RoundTrip time in attempt7: 1
 RoundTrip time in attempt8: 1
 RoundTrip time in attempt9: 1
 RoundTrip time in attempt10: 1
-RoundTrip time in attempt11: 2
+RoundTrip time in attempt11: 1
 RoundTrip time in attempt12: 1
 RoundTrip time in attempt13: 1
 RoundTrip time in attempt14: 1
@@ -34,30 +100,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 3
-Average ping was 1.15
+Maximum ping was 1
+Average ping was 1
 Current high score is 128 for destination 8.8.8.8 at 11/15/2022 6:32:30 AM local time
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [15 s]
-  Error Message:
-   Npgsql.NpgsqlException : Exception while reading from stream
----- System.TimeoutException : Timeout during reading attempt
-  Stack Trace:
-     at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
-   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
-   at Npgsql.PostgresDatabaseInfo.LoadBackendTypes(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
-   at Npgsql.PostgresDatabaseInfo.LoadPostgresInfo(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
-   at Npgsql.PostgresDatabaseInfoFactory.Load(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
-   at Npgsql.Internal.NpgsqlDatabaseInfo.Load(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
-   at Npgsql.Internal.NpgsqlConnector.LoadDatabaseInfo(Boolean forceReload, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
-   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
-   at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
-   at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
-   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
------ Inner Stack Trace -----
 
-
-Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 15 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 7 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
