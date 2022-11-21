@@ -10,58 +10,10 @@ Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
 For 1.1.1.1: 
-RoundTrip time in attempt18: 80
-RoundTrip time in attempt19: 114
-Minimum ping was 80
-Maximum ping was 114
-Average ping was 97
-20 ping requests sent, 18 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt5: 102
-RoundTrip time in attempt6: 84
-RoundTrip time in attempt7: 57
-RoundTrip time in attempt8: 63
-RoundTrip time in attempt9: 60
-RoundTrip time in attempt10: 40
-RoundTrip time in attempt11: 40
-RoundTrip time in attempt12: 34
-RoundTrip time in attempt13: 46
-RoundTrip time in attempt14: 37
-RoundTrip time in attempt15: 34
-RoundTrip time in attempt16: 25
-RoundTrip time in attempt17: 38
-RoundTrip time in attempt18: 61
-RoundTrip time in attempt19: 52
-Minimum ping was 25
-Maximum ping was 102
-Average ping was 51.53333333333333
-20 ping requests sent, 5 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
-RoundTrip time in attempt0: 53
-RoundTrip time in attempt1: 61
-RoundTrip time in attempt2: 55
-RoundTrip time in attempt3: 36
-RoundTrip time in attempt4: 58
-RoundTrip time in attempt5: 50
-RoundTrip time in attempt6: 61
-RoundTrip time in attempt7: 72
-RoundTrip time in attempt8: 27
-RoundTrip time in attempt9: 43
-RoundTrip time in attempt12: 84
-RoundTrip time in attempt13: 30
-RoundTrip time in attempt14: 59
-RoundTrip time in attempt15: 73
-RoundTrip time in attempt16: 29
-RoundTrip time in attempt17: 21
-Minimum ping was 21
-Maximum ping was 84
-Average ping was 50.75
-20 ping requests sent, 4 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 3
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
@@ -78,12 +30,35 @@ RoundTrip time in attempt13: 1
 RoundTrip time in attempt14: 1
 RoundTrip time in attempt15: 1
 RoundTrip time in attempt16: 1
-RoundTrip time in attempt17: 6
+RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 6
-Average ping was 1.35
+Maximum ping was 1
+Average ping was 1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [10 s]
+  Error Message:
+   Npgsql.NpgsqlException : Exception while reading from stream
+---- System.IO.IOException : Unable to read data from the transport connection: Connection reset by peer.
+-------- System.Net.Sockets.SocketException : Connection reset by peer
+  Stack Trace:
+     at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
+   at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+----- Inner Stack Trace -----
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
+----- Inner Stack Trace -----
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 7 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+
+Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 10 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
