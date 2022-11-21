@@ -9,109 +9,13 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 25
-RoundTrip time in attempt1: 97
-RoundTrip time in attempt2: 38
-RoundTrip time in attempt3: 30
-RoundTrip time in attempt4: 25
-RoundTrip time in attempt5: 28
-RoundTrip time in attempt6: 24
-RoundTrip time in attempt7: 30
-RoundTrip time in attempt8: 27
-RoundTrip time in attempt9: 42
-RoundTrip time in attempt10: 32
-RoundTrip time in attempt11: 56
-RoundTrip time in attempt12: 42
-RoundTrip time in attempt13: 34
-RoundTrip time in attempt14: 34
-RoundTrip time in attempt15: 45
-RoundTrip time in attempt16: 39
-RoundTrip time in attempt17: 49
-RoundTrip time in attempt18: 63
-RoundTrip time in attempt19: 35
-Minimum ping was 24
-Maximum ping was 97
-Average ping was 39.75
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
-RoundTrip time in attempt0: 35
-RoundTrip time in attempt1: 52
-RoundTrip time in attempt2: 55
-RoundTrip time in attempt3: 53
-RoundTrip time in attempt4: 36
-RoundTrip time in attempt5: 28
-RoundTrip time in attempt6: 30
-RoundTrip time in attempt7: 72
-RoundTrip time in attempt8: 39
-RoundTrip time in attempt9: 25
-RoundTrip time in attempt10: 23
-RoundTrip time in attempt11: 28
-RoundTrip time in attempt12: 34
-RoundTrip time in attempt13: 28
-RoundTrip time in attempt14: 62
-RoundTrip time in attempt15: 37
-RoundTrip time in attempt17: 44
-RoundTrip time in attempt18: 72
-RoundTrip time in attempt19: 36
-Minimum ping was 23
-Maximum ping was 72
-Average ping was 41.526315789473685
-20 ping requests sent, 1 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt0: 42
-RoundTrip time in attempt1: 92
-RoundTrip time in attempt2: 39
-RoundTrip time in attempt3: 37
-RoundTrip time in attempt4: 53
-RoundTrip time in attempt5: 53
-RoundTrip time in attempt7: 100
-RoundTrip time in attempt8: 50
-RoundTrip time in attempt9: 51
-RoundTrip time in attempt10: 55
-RoundTrip time in attempt11: 84
-RoundTrip time in attempt12: 36
-RoundTrip time in attempt13: 38
-RoundTrip time in attempt14: 44
-RoundTrip time in attempt15: 62
-RoundTrip time in attempt16: 32
-RoundTrip time in attempt17: 109
-RoundTrip time in attempt18: 39
-RoundTrip time in attempt19: 67
-Minimum ping was 32
-Maximum ping was 109
-Average ping was 57
-20 ping requests sent, 1 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
-RoundTrip time in attempt0: 40
-RoundTrip time in attempt2: 38
-RoundTrip time in attempt3: 29
-RoundTrip time in attempt4: 21
-RoundTrip time in attempt5: 38
-RoundTrip time in attempt6: 27
-RoundTrip time in attempt7: 36
-RoundTrip time in attempt8: 70
-RoundTrip time in attempt9: 23
-RoundTrip time in attempt10: 62
-RoundTrip time in attempt11: 33
-RoundTrip time in attempt12: 37
-RoundTrip time in attempt13: 45
-RoundTrip time in attempt14: 28
-RoundTrip time in attempt15: 41
-RoundTrip time in attempt16: 28
-RoundTrip time in attempt17: 29
-RoundTrip time in attempt18: 32
-RoundTrip time in attempt19: 45
-Minimum ping was 21
-Maximum ping was 70
-Average ping was 36.94736842105263
-20 ping requests sent, 1 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
 RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
-RoundTrip time in attempt2: 3
+RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
 RoundTrip time in attempt5: 1
@@ -130,8 +34,26 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 3
-Average ping was 1.1
+Maximum ping was 1
+Average ping was 1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [15 s]
+  Error Message:
+   Npgsql.NpgsqlException : Exception while reading from stream
+---- System.TimeoutException : Timeout during reading attempt
+  Stack Trace:
+     at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
+   at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+----- Inner Stack Trace -----
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 4 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+
+Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 15 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
