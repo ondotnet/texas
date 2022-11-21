@@ -9,11 +9,102 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
+RoundTrip time in attempt0: 30
+RoundTrip time in attempt1: 42
+RoundTrip time in attempt2: 49
+RoundTrip time in attempt3: 21
+RoundTrip time in attempt4: 32
+RoundTrip time in attempt5: 46
+RoundTrip time in attempt6: 36
+RoundTrip time in attempt7: 35
+RoundTrip time in attempt8: 37
+RoundTrip time in attempt9: 48
+RoundTrip time in attempt10: 54
+RoundTrip time in attempt11: 42
+RoundTrip time in attempt12: 22
+RoundTrip time in attempt13: 49
+RoundTrip time in attempt14: 91
+RoundTrip time in attempt15: 34
+RoundTrip time in attempt16: 31
+RoundTrip time in attempt17: 30
+RoundTrip time in attempt18: 38
+RoundTrip time in attempt19: 59
+Minimum ping was 21
+Maximum ping was 91
+Average ping was 41.3
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
+RoundTrip time in attempt0: 32
+RoundTrip time in attempt2: 72
+RoundTrip time in attempt3: 45
+RoundTrip time in attempt4: 29
+RoundTrip time in attempt5: 21
+RoundTrip time in attempt6: 67
+RoundTrip time in attempt7: 98
+RoundTrip time in attempt8: 28
+RoundTrip time in attempt9: 44
+RoundTrip time in attempt10: 33
+RoundTrip time in attempt11: 39
+RoundTrip time in attempt12: 33
+RoundTrip time in attempt13: 40
+RoundTrip time in attempt14: 37
+RoundTrip time in attempt15: 31
+RoundTrip time in attempt16: 40
+RoundTrip time in attempt17: 42
+RoundTrip time in attempt18: 68
+RoundTrip time in attempt19: 25
+Minimum ping was 21
+Maximum ping was 98
+Average ping was 43.36842105263158
+20 ping requests sent, 1 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
+RoundTrip time in attempt1: 44
+RoundTrip time in attempt2: 30
+RoundTrip time in attempt3: 40
+RoundTrip time in attempt4: 61
+RoundTrip time in attempt5: 25
+RoundTrip time in attempt6: 46
+RoundTrip time in attempt7: 43
+RoundTrip time in attempt8: 48
+RoundTrip time in attempt9: 37
+RoundTrip time in attempt10: 45
+RoundTrip time in attempt11: 37
+RoundTrip time in attempt12: 58
+RoundTrip time in attempt13: 41
+RoundTrip time in attempt15: 65
+RoundTrip time in attempt16: 56
+RoundTrip time in attempt17: 48
+RoundTrip time in attempt18: 50
+Minimum ping was 25
+Maximum ping was 65
+Average ping was 45.529411764705884
+20 ping requests sent, 3 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
+RoundTrip time in attempt0: 66
+RoundTrip time in attempt1: 52
+RoundTrip time in attempt2: 50
+RoundTrip time in attempt3: 63
+RoundTrip time in attempt5: 52
+RoundTrip time in attempt6: 45
+RoundTrip time in attempt7: 62
+RoundTrip time in attempt8: 32
+RoundTrip time in attempt9: 42
+RoundTrip time in attempt10: 50
+RoundTrip time in attempt14: 50
+RoundTrip time in attempt15: 37
+RoundTrip time in attempt16: 34
+RoundTrip time in attempt17: 49
+RoundTrip time in attempt18: 41
+RoundTrip time in attempt19: 32
+Minimum ping was 32
+Maximum ping was 66
+Average ping was 47.3125
+20 ping requests sent, 4 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 3
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
@@ -34,8 +125,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 3
-Average ping was 1.1
+Maximum ping was 1
+Average ping was 1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 9 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 4 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
