@@ -10,28 +10,13 @@ Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
 For 1.1.1.1: 
-RoundTrip time in attempt19: 86
-Minimum ping was 86
-Maximum ping was 86
-Average ping was 86
-20 ping requests sent, 19 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt0: 37
-RoundTrip time in attempt1: 57
-RoundTrip time in attempt2: 38
-RoundTrip time in attempt3: 43
-RoundTrip time in attempt4: 41
-RoundTrip time in attempt5: 36
-RoundTrip time in attempt6: 48
-RoundTrip time in attempt7: 28
-RoundTrip time in attempt8: 56
-RoundTrip time in attempt9: 92
-RoundTrip time in attempt10: 92
-Minimum ping was 28
-Maximum ping was 92
-Average ping was 51.63636363636363
-20 ping requests sent, 9 failed to return
+RoundTrip time in attempt6: 54
+RoundTrip time in attempt7: 73
+Minimum ping was 54
+Maximum ping was 73
+Average ping was 63.5
+20 ping requests sent, 18 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
 For 192.168.12.1: 
@@ -60,4 +45,4 @@ Maximum ping was 1
 Average ping was 1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 8 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 9 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
