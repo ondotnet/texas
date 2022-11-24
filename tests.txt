@@ -11,9 +11,42 @@ A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
 For 1.1.1.1: 
 For 8.8.4.4: 
+RoundTrip time in attempt11: 113
+RoundTrip time in attempt12: 49
+RoundTrip time in attempt13: 54
+RoundTrip time in attempt14: 38
+RoundTrip time in attempt15: 82
+RoundTrip time in attempt16: 35
+RoundTrip time in attempt17: 80
+RoundTrip time in attempt18: 98
+RoundTrip time in attempt19: 62
+Minimum ping was 35
+Maximum ping was 113
+Average ping was 67.88888888888889
+20 ping requests sent, 11 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
+RoundTrip time in attempt1: 38
+RoundTrip time in attempt2: 107
+RoundTrip time in attempt3: 104
+RoundTrip time in attempt4: 89
+RoundTrip time in attempt6: 80
+RoundTrip time in attempt8: 67
+RoundTrip time in attempt9: 78
+RoundTrip time in attempt10: 58
+RoundTrip time in attempt11: 71
+RoundTrip time in attempt12: 68
+RoundTrip time in attempt13: 27
+RoundTrip time in attempt14: 81
+RoundTrip time in attempt15: 103
+RoundTrip time in attempt16: 54
+Minimum ping was 27
+Maximum ping was 107
+Average ping was 73.21428571428571
+20 ping requests sent, 6 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 1
+RoundTrip time in attempt0: 3
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 2
@@ -34,8 +67,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 2
-Average ping was 1.05
+Maximum ping was 3
+Average ping was 1.15
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 11 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 8 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
