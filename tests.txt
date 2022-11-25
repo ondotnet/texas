@@ -9,45 +9,9 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 90
-RoundTrip time in attempt2: 118
-RoundTrip time in attempt5: 91
-RoundTrip time in attempt6: 109
-RoundTrip time in attempt10: 78
-RoundTrip time in attempt19: 104
-Minimum ping was 78
-Maximum ping was 118
-Average ping was 98.33333333333333
-20 ping requests sent, 14 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
-RoundTrip time in attempt1: 115
-RoundTrip time in attempt10: 115
-RoundTrip time in attempt14: 97
-RoundTrip time in attempt16: 112
-RoundTrip time in attempt19: 89
-Minimum ping was 89
-Maximum ping was 115
-Average ping was 105.6
-20 ping requests sent, 15 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt8: 100
-RoundTrip time in attempt9: 105
-Minimum ping was 100
-Maximum ping was 105
-Average ping was 102.5
-20 ping requests sent, 18 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
-RoundTrip time in attempt1: 98
-RoundTrip time in attempt6: 89
-RoundTrip time in attempt11: 103
-Minimum ping was 89
-Maximum ping was 103
-Average ping was 96.66666666666667
-20 ping requests sent, 17 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
 RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
