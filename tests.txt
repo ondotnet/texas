@@ -12,6 +12,12 @@ For 1.0.0.1:
 For 1.1.1.1: 
 For 8.8.4.4: 
 For 8.8.8.8: 
+RoundTrip time in attempt8: 78
+Minimum ping was 78
+Maximum ping was 78
+Average ping was 78
+20 ping requests sent, 19 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
 RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
