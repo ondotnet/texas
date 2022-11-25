@@ -9,107 +9,11 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 12
-RoundTrip time in attempt1: 12
-RoundTrip time in attempt2: 37
-RoundTrip time in attempt3: 12
-RoundTrip time in attempt4: 14
-RoundTrip time in attempt5: 15
-RoundTrip time in attempt6: 23
-RoundTrip time in attempt7: 13
-RoundTrip time in attempt8: 19
-RoundTrip time in attempt9: 11
-RoundTrip time in attempt10: 21
-RoundTrip time in attempt11: 9
-RoundTrip time in attempt12: 9
-RoundTrip time in attempt13: 14
-RoundTrip time in attempt14: 14
-RoundTrip time in attempt15: 10
-RoundTrip time in attempt16: 38
-RoundTrip time in attempt17: 11
-RoundTrip time in attempt18: 10
-RoundTrip time in attempt19: 12
-Minimum ping was 9
-Maximum ping was 38
-Average ping was 15.8
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
-RoundTrip time in attempt0: 28
-RoundTrip time in attempt1: 11
-RoundTrip time in attempt2: 12
-RoundTrip time in attempt3: 10
-RoundTrip time in attempt4: 17
-RoundTrip time in attempt5: 38
-RoundTrip time in attempt6: 14
-RoundTrip time in attempt7: 12
-RoundTrip time in attempt8: 24
-RoundTrip time in attempt9: 24
-RoundTrip time in attempt10: 10
-RoundTrip time in attempt11: 10
-RoundTrip time in attempt12: 18
-RoundTrip time in attempt13: 20
-RoundTrip time in attempt14: 23
-RoundTrip time in attempt15: 13
-RoundTrip time in attempt16: 22
-RoundTrip time in attempt17: 11
-RoundTrip time in attempt18: 18
-RoundTrip time in attempt19: 11
-Minimum ping was 10
-Maximum ping was 38
-Average ping was 17.3
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt0: 21
-RoundTrip time in attempt1: 10
-RoundTrip time in attempt2: 14
-RoundTrip time in attempt3: 12
-RoundTrip time in attempt4: 9
-RoundTrip time in attempt5: 14
-RoundTrip time in attempt6: 18
-RoundTrip time in attempt7: 19
-RoundTrip time in attempt8: 12
-RoundTrip time in attempt9: 11
-RoundTrip time in attempt10: 15
-RoundTrip time in attempt11: 14
-RoundTrip time in attempt12: 12
-RoundTrip time in attempt13: 15
-RoundTrip time in attempt14: 9
-RoundTrip time in attempt15: 17
-RoundTrip time in attempt16: 15
-RoundTrip time in attempt17: 15
-RoundTrip time in attempt18: 14
-RoundTrip time in attempt19: 17
-Minimum ping was 9
-Maximum ping was 21
-Average ping was 14.15
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
-RoundTrip time in attempt0: 17
-RoundTrip time in attempt1: 20
-RoundTrip time in attempt2: 23
-RoundTrip time in attempt3: 22
-RoundTrip time in attempt4: 26
-RoundTrip time in attempt5: 23
-RoundTrip time in attempt6: 34
-RoundTrip time in attempt7: 17
-RoundTrip time in attempt8: 18
-RoundTrip time in attempt9: 24
-RoundTrip time in attempt10: 33
-RoundTrip time in attempt11: 24
-RoundTrip time in attempt12: 30
-RoundTrip time in attempt13: 35
-RoundTrip time in attempt14: 25
-RoundTrip time in attempt15: 19
-RoundTrip time in attempt16: 22
-RoundTrip time in attempt17: 22
-RoundTrip time in attempt18: 17
-RoundTrip time in attempt19: 18
-Minimum ping was 17
-Maximum ping was 35
-Average ping was 23.45
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 1
+RoundTrip time in attempt0: 3
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
@@ -130,8 +34,26 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 1
-Average ping was 1
+Maximum ping was 3
+Average ping was 1.1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [15 s]
+  Error Message:
+   Npgsql.NpgsqlException : Failed to connect to 34.160.91.144:5432
+---- System.TimeoutException : Timeout during connection attempt
+  Stack Trace:
+     at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
+   at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+----- Inner Stack Trace -----
 
-Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 2 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+
+Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 15 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
