@@ -9,18 +9,37 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
+RoundTrip time in attempt19: 65
+Minimum ping was 65
+Maximum ping was 65
+Average ping was 65
+20 ping requests sent, 19 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
-RoundTrip time in attempt15: 88
-RoundTrip time in attempt16: 91
-Minimum ping was 88
-Maximum ping was 91
-Average ping was 89.5
-20 ping requests sent, 18 failed to return
+RoundTrip time in attempt1: 21
+RoundTrip time in attempt2: 53
+RoundTrip time in attempt3: 76
+RoundTrip time in attempt4: 16
+RoundTrip time in attempt9: 24
+RoundTrip time in attempt11: 61
+RoundTrip time in attempt18: 92
+Minimum ping was 16
+Maximum ping was 92
+Average ping was 49
+20 ping requests sent, 13 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
+RoundTrip time in attempt0: 64
+RoundTrip time in attempt4: 91
+RoundTrip time in attempt5: 117
+Minimum ping was 64
+Maximum ping was 117
+Average ping was 90.66666666666667
+20 ping requests sent, 17 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
 For 192.168.12.1: 
-RoundTrip time in attempt0: 2
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
@@ -41,8 +60,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 2
-Average ping was 1.05
+Maximum ping was 1
+Average ping was 1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 
 Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 9 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
