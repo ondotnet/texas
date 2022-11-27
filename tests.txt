@@ -13,7 +13,7 @@ For 1.1.1.1:
 For 8.8.4.4: 
 For 8.8.8.8: 
 For 192.168.12.1: 
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [197 ms]
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [194 ms]
   Error Message:
    System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Resource temporarily unavailable
   Stack Trace:
@@ -42,4 +42,4 @@ For 192.168.12.1:
    at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
    at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
 
-Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 217 ms - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 214 ms - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
