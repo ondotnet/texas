@@ -9,7 +9,11 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [198 ms]
+For 1.1.1.1: 
+For 8.8.4.4: 
+For 8.8.8.8: 
+For 192.168.12.1: 
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [191 ms]
   Error Message:
    System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Resource temporarily unavailable
   Stack Trace:
@@ -37,9 +41,5 @@ For 1.0.0.1:
    at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
    at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
    at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
-For 1.1.1.1: 
-For 8.8.4.4: 
-For 8.8.8.8: 
-For 192.168.12.1: 
 
-Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 11 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 211 ms - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
