@@ -39,10 +39,10 @@ Average ping was 1.1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
   Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [15 s]
   Error Message:
-   Npgsql.NpgsqlException : Exception while reading from stream
----- System.TimeoutException : Timeout during reading attempt
+   System.TimeoutException : The operation has timed out.
   Stack Trace:
-     at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
+     at Npgsql.TaskExtensions.WithTimeout[T](Task`1 task, NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
    at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
    at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
    at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
@@ -53,7 +53,5 @@ Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local
    at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
    at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
    at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
------ Inner Stack Trace -----
-
 
 Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 15 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
