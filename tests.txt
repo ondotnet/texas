@@ -9,13 +9,17 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-For 1.1.1.1: 
-RoundTrip time in attempt11: 64
-Minimum ping was 64
-Maximum ping was 64
-Average ping was 64
-20 ping requests sent, 19 failed to return
+RoundTrip time in attempt0: 64
+RoundTrip time in attempt1: 39
+RoundTrip time in attempt2: 108
+RoundTrip time in attempt3: 71
+RoundTrip time in attempt4: 101
+Minimum ping was 39
+Maximum ping was 108
+Average ping was 76.6
+20 ping requests sent, 15 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
+For 1.1.1.1: 
 For 127.0.0.1: 
 RoundTrip time in attempt0: 0
 RoundTrip time in attempt1: 0
@@ -42,16 +46,20 @@ Maximum ping was 0
 Average ping was 0
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt15: 69
-Minimum ping was 69
-Maximum ping was 69
-Average ping was 69
-20 ping requests sent, 19 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
+RoundTrip time in attempt4: 47
+RoundTrip time in attempt7: 93
+RoundTrip time in attempt8: 75
+RoundTrip time in attempt12: 116
+RoundTrip time in attempt13: 95
+Minimum ping was 47
+Maximum ping was 116
+Average ping was 85.2
+20 ping requests sent, 15 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 1
-RoundTrip time in attempt1: 1
+RoundTrip time in attempt0: 110
+RoundTrip time in attempt1: 3
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
@@ -71,8 +79,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 1
-Average ping was 1
+Maximum ping was 110
+Average ping was 6.55
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 
 Passed!  - Failed:     0, Passed:    24, Skipped:     0, Total:    24, Duration: 9 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
