@@ -38,7 +38,7 @@ Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local
 For 8.8.4.4: 
 For 8.8.8.8: 
 For 192.168.12.1: 
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [331 ms]
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [328 ms]
   Error Message:
    System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Resource temporarily unavailable
   Stack Trace:
