@@ -67,4 +67,4 @@ For 192.168.12.1:
    at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
    at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
 
-Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 346 ms - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 357 ms - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
