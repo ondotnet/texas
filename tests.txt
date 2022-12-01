@@ -36,18 +36,29 @@ Maximum ping was 0
 Average ping was 0
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-For 8.8.8.8: 
-RoundTrip time in attempt14: 88
-RoundTrip time in attempt15: 83
-Minimum ping was 83
-Maximum ping was 88
-Average ping was 85.5
+RoundTrip time in attempt15: 110
+RoundTrip time in attempt16: 52
+Minimum ping was 52
+Maximum ping was 110
+Average ping was 81
 20 ping requests sent, 18 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
+For 8.8.8.8: 
+RoundTrip time in attempt5: 76
+RoundTrip time in attempt8: 112
+RoundTrip time in attempt9: 82
+RoundTrip time in attempt13: 76
+RoundTrip time in attempt14: 74
+RoundTrip time in attempt17: 93
+Minimum ping was 74
+Maximum ping was 112
+Average ping was 85.5
+20 ping requests sent, 14 failed to return
+Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 1
-RoundTrip time in attempt1: 1
-RoundTrip time in attempt2: 1
+RoundTrip time in attempt0: 105
+RoundTrip time in attempt1: 108
+RoundTrip time in attempt2: 3
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
 RoundTrip time in attempt5: 1
@@ -66,8 +77,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 1
-Average ping was 1
+Maximum ping was 108
+Average ping was 11.65
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 
 Passed!  - Failed:     0, Passed:    24, Skipped:     0, Total:    24, Duration: 9 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
