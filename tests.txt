@@ -13,8 +13,8 @@ For 1.1.1.1:
 For 8.8.4.4: 
 For 8.8.8.8: 
 For 192.168.12.1: 
-RoundTrip time in attempt0: 2
-RoundTrip time in attempt1: 1
+RoundTrip time in attempt0: 1
+RoundTrip time in attempt1: 2
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
