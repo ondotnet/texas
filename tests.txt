@@ -37,8 +37,7 @@ Average ping was 0
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
 For 8.8.8.8: 
-For 192.168.12.1: 
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [504 ms]
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [780 ms]
   Error Message:
    System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Resource temporarily unavailable
   Stack Trace:
@@ -66,5 +65,6 @@ For 192.168.12.1:
    at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
    at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
    at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+For 192.168.12.1: 
 
-Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 571 ms - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 898 ms - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
