@@ -38,12 +38,12 @@ Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local
 For 8.8.4.4: 
 For 8.8.8.8: 
 For 192.168.12.1: 
-RoundTrip time in attempt0: 3
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
-RoundTrip time in attempt5: 1
+RoundTrip time in attempt5: 2
 RoundTrip time in attempt6: 1
 RoundTrip time in attempt7: 1
 RoundTrip time in attempt8: 1
@@ -59,8 +59,8 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 3
-Average ping was 1.1
+Maximum ping was 2
+Average ping was 1.05
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
   Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [15 s]
   Error Message:
