@@ -13,7 +13,7 @@ For 1.1.1.1:
 For 8.8.4.4: 
 For 8.8.8.8: 
 For 192.168.12.1: 
-RoundTrip time in attempt0: 107
+RoundTrip time in attempt0: 1
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
@@ -34,18 +34,16 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 107
-Average ping was 6.3
+Maximum ping was 1
+Average ping was 1
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [27 s]
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [15 s]
   Error Message:
-   Npgsql.NpgsqlException : Exception while reading from stream
----- System.TimeoutException : Timeout during reading attempt
+   Npgsql.NpgsqlException : Failed to connect to 34.160.91.144:5432
+---- System.TimeoutException : Timeout during connection attempt
   Stack Trace:
-     at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
-   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
-   at Npgsql.Internal.NpgsqlConnector.AuthenticateCleartext(String username, Boolean async, CancellationToken cancellationToken)
-   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+     at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
    at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
    at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
    at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
@@ -58,4 +56,4 @@ Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local
 ----- Inner Stack Trace -----
 
 
-Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 27 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    22, Skipped:     0, Total:    23, Duration: 15 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
