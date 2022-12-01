@@ -9,7 +9,7 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [293 ms]
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [282 ms]
   Error Message:
    System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Resource temporarily unavailable
   Stack Trace:
@@ -67,4 +67,4 @@ For 8.8.4.4:
 For 8.8.8.8: 
 For 192.168.12.1: 
 
-Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 12 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 4 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
