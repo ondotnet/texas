@@ -18,6 +18,7 @@ public class PingTests
     [InlineData("1.1.1.1")]
     [InlineData("8.8.4.4")]
     [InlineData("1.0.0.1")]
+    [InlineData("127.0.0.1")]
     [InlineData("192.168.12.1")]
     public void TestPing(string destination)
     {
