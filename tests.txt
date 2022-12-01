@@ -38,15 +38,15 @@ Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local
 For 8.8.4.4: 
 For 8.8.8.8: 
 For 192.168.12.1: 
-RoundTrip time in attempt0: 1
+RoundTrip time in attempt0: 3
 RoundTrip time in attempt1: 1
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
-RoundTrip time in attempt5: 1
-RoundTrip time in attempt6: 1
+RoundTrip time in attempt5: 2
+RoundTrip time in attempt6: 3
 RoundTrip time in attempt7: 1
-RoundTrip time in attempt8: 1
+RoundTrip time in attempt8: 2
 RoundTrip time in attempt9: 1
 RoundTrip time in attempt10: 1
 RoundTrip time in attempt11: 1
@@ -59,10 +59,10 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 1
-Average ping was 1
+Maximum ping was 3
+Average ping was 1.3
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
-  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [16 s]
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [19 s]
   Error Message:
    System.TimeoutException : The operation has timed out.
   Stack Trace:
@@ -79,4 +79,4 @@ Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local
    at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
    at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
 
-Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 16 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 19 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
