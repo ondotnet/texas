@@ -9,30 +9,15 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 33
-RoundTrip time in attempt1: 64
-RoundTrip time in attempt2: 48
-RoundTrip time in attempt3: 41
-RoundTrip time in attempt4: 46
-RoundTrip time in attempt5: 101
-RoundTrip time in attempt7: 56
-RoundTrip time in attempt8: 47
-RoundTrip time in attempt9: 60
-RoundTrip time in attempt17: 58
-Minimum ping was 33
-Maximum ping was 101
-Average ping was 55.4
-20 ping requests sent, 10 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
-RoundTrip time in attempt3: 78
-RoundTrip time in attempt4: 117
-RoundTrip time in attempt9: 81
-RoundTrip time in attempt18: 95
-RoundTrip time in attempt19: 49
-Minimum ping was 49
-Maximum ping was 117
-Average ping was 84
+RoundTrip time in attempt10: 49
+RoundTrip time in attempt13: 26
+RoundTrip time in attempt14: 64
+RoundTrip time in attempt15: 91
+RoundTrip time in attempt19: 55
+Minimum ping was 26
+Maximum ping was 91
+Average ping was 57
 20 ping requests sent, 15 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 127.0.0.1: 
@@ -61,64 +46,29 @@ Maximum ping was 0
 Average ping was 0
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt2: 55
-RoundTrip time in attempt3: 45
-RoundTrip time in attempt4: 36
-RoundTrip time in attempt5: 68
-RoundTrip time in attempt6: 57
-RoundTrip time in attempt7: 86
-RoundTrip time in attempt10: 40
-RoundTrip time in attempt11: 41
-RoundTrip time in attempt12: 49
-RoundTrip time in attempt13: 70
-RoundTrip time in attempt14: 53
-RoundTrip time in attempt15: 91
-RoundTrip time in attempt16: 84
-Minimum ping was 36
-Maximum ping was 91
-Average ping was 59.61538461538461
-20 ping requests sent, 7 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
-For 8.8.8.8: 
-RoundTrip time in attempt0: 35
-RoundTrip time in attempt1: 93
-RoundTrip time in attempt2: 83
-RoundTrip time in attempt3: 109
-RoundTrip time in attempt4: 77
-RoundTrip time in attempt5: 54
-RoundTrip time in attempt7: 72
-RoundTrip time in attempt8: 58
-RoundTrip time in attempt9: 67
-RoundTrip time in attempt11: 80
+RoundTrip time in attempt1: 88
+RoundTrip time in attempt5: 118
+RoundTrip time in attempt6: 78
+RoundTrip time in attempt8: 92
+RoundTrip time in attempt9: 35
+RoundTrip time in attempt10: 41
+RoundTrip time in attempt11: 36
+RoundTrip time in attempt14: 67
+RoundTrip time in attempt16: 99
+RoundTrip time in attempt18: 113
 Minimum ping was 35
-Maximum ping was 109
-Average ping was 72.8
+Maximum ping was 118
+Average ping was 76.7
 20 ping requests sent, 10 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
-For 192.168.12.1: 
-RoundTrip time in attempt0: 1
-RoundTrip time in attempt1: 1
-RoundTrip time in attempt2: 1
-RoundTrip time in attempt3: 1
-RoundTrip time in attempt4: 1
-RoundTrip time in attempt5: 1
-RoundTrip time in attempt6: 1
-RoundTrip time in attempt7: 1
-RoundTrip time in attempt8: 1
-RoundTrip time in attempt9: 1
-RoundTrip time in attempt10: 1
-RoundTrip time in attempt11: 1
-RoundTrip time in attempt12: 1
-RoundTrip time in attempt13: 1
-RoundTrip time in attempt14: 1
-RoundTrip time in attempt15: 1
-RoundTrip time in attempt16: 1
-RoundTrip time in attempt17: 1
-RoundTrip time in attempt18: 1
-RoundTrip time in attempt19: 1
-Minimum ping was 1
-Maximum ping was 1
-Average ping was 1
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
-
-Passed!  - Failed:     0, Passed:    24, Skipped:     0, Total:    24, Duration: 7 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+For 8.8.8.8: 
+RoundTrip time in attempt0: 108
+RoundTrip time in attempt1: 100
+RoundTrip time in attempt5: 88
+RoundTrip time in attempt6: 95
+RoundTrip time in attempt7: 73
+RoundTrip time in attempt8: 108
+RoundTrip time in attempt10: 75
+RoundTrip time in attempt14: 78
+Attempting to cancel the build...
+Attempting to cancel the build...
