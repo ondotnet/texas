@@ -1,37 +1,5 @@
   Determining projects to restore...
   All projects are up-to-date for restore.
   Texas.Persistence -> /home/kushal/src/dotnet/texas/Texas.Persistence/bin/Debug/net6.0/Texas.Persistence.dll
-  Texas.XunitTests -> /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll
-Test run for /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (.NETCoreApp,Version=v6.0)
-Microsoft (R) Test Execution Command Line Tool Version 17.0.0+68bd10d3aee862a9fbb0bac8b3d474bc323024f3
-Copyright (c) Microsoft Corporation.  All rights reserved.
-
-Starting test execution, please wait...
-A total of 1 test files matched the specified pattern.
-For 1.0.0.1: 
-RoundTrip time in attempt12: 48
-RoundTrip time in attempt13: 110
-RoundTrip time in attempt19: 65
-Minimum ping was 48
-Maximum ping was 110
-Average ping was 74.33333333333333
-20 ping requests sent, 17 failed to return
-Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
-For 1.1.1.1: 
-RoundTrip time in attempt0: 92
-RoundTrip time in attempt1: 107
-RoundTrip time in attempt2: 59
-RoundTrip time in attempt3: 53
-RoundTrip time in attempt4: 36
-RoundTrip time in attempt6: 31
-RoundTrip time in attempt7: 78
-RoundTrip time in attempt8: 48
-RoundTrip time in attempt10: 42
-RoundTrip time in attempt12: 76
-RoundTrip time in attempt13: 61
-RoundTrip time in attempt14: 48
-RoundTrip time in attempt15: 29
-RoundTrip time in attempt16: 35
-RoundTrip time in attempt17: 69
 Attempting to cancel the build...
 Attempting to cancel the build...
