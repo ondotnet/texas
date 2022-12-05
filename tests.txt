@@ -9,54 +9,54 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt0: 18
-RoundTrip time in attempt1: 23
+RoundTrip time in attempt1: 63
 RoundTrip time in attempt2: 13
-RoundTrip time in attempt3: 28
-RoundTrip time in attempt4: 25
-RoundTrip time in attempt5: 42
-RoundTrip time in attempt6: 38
-RoundTrip time in attempt7: 38
-RoundTrip time in attempt8: 39
-RoundTrip time in attempt9: 38
-RoundTrip time in attempt10: 18
-RoundTrip time in attempt11: 19
-RoundTrip time in attempt12: 22
-RoundTrip time in attempt13: 30
-RoundTrip time in attempt14: 16
-RoundTrip time in attempt15: 25
-RoundTrip time in attempt16: 12
-RoundTrip time in attempt17: 24
-RoundTrip time in attempt18: 30
+RoundTrip time in attempt3: 23
+RoundTrip time in attempt4: 9
+RoundTrip time in attempt5: 19
+RoundTrip time in attempt6: 54
+RoundTrip time in attempt7: 33
+RoundTrip time in attempt8: 17
+RoundTrip time in attempt9: 14
+RoundTrip time in attempt10: 19
+RoundTrip time in attempt11: 25
+RoundTrip time in attempt12: 17
+RoundTrip time in attempt13: 19
+RoundTrip time in attempt14: 18
+RoundTrip time in attempt15: 21
+RoundTrip time in attempt16: 22
+RoundTrip time in attempt17: 45
+RoundTrip time in attempt18: 12
 RoundTrip time in attempt19: 16
-Minimum ping was 12
-Maximum ping was 42
-Average ping was 25.7
+Minimum ping was 9
+Maximum ping was 63
+Average ping was 24.157894736842106
+20 ping requests sent, 1 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
-RoundTrip time in attempt0: 16
-RoundTrip time in attempt1: 14
-RoundTrip time in attempt2: 36
-RoundTrip time in attempt3: 21
-RoundTrip time in attempt4: 16
-RoundTrip time in attempt5: 23
-RoundTrip time in attempt6: 26
-RoundTrip time in attempt7: 61
-RoundTrip time in attempt8: 12
-RoundTrip time in attempt9: 48
-RoundTrip time in attempt10: 35
-RoundTrip time in attempt11: 20
-RoundTrip time in attempt12: 14
-RoundTrip time in attempt13: 48
-RoundTrip time in attempt14: 20
-RoundTrip time in attempt15: 24
-RoundTrip time in attempt16: 14
-RoundTrip time in attempt17: 15
-RoundTrip time in attempt18: 17
-RoundTrip time in attempt19: 19
+RoundTrip time in attempt0: 36
+RoundTrip time in attempt1: 45
+RoundTrip time in attempt2: 13
+RoundTrip time in attempt3: 18
+RoundTrip time in attempt4: 18
+RoundTrip time in attempt5: 12
+RoundTrip time in attempt6: 18
+RoundTrip time in attempt7: 13
+RoundTrip time in attempt8: 29
+RoundTrip time in attempt9: 21
+RoundTrip time in attempt10: 17
+RoundTrip time in attempt11: 13
+RoundTrip time in attempt12: 52
+RoundTrip time in attempt13: 38
+RoundTrip time in attempt14: 63
+RoundTrip time in attempt15: 14
+RoundTrip time in attempt16: 18
+RoundTrip time in attempt17: 49
+RoundTrip time in attempt18: 37
+RoundTrip time in attempt19: 12
 Minimum ping was 12
-Maximum ping was 61
-Average ping was 24.95
+Maximum ping was 63
+Average ping was 26.8
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 127.0.0.1: 
 RoundTrip time in attempt0: 0
@@ -84,54 +84,54 @@ Maximum ping was 0
 Average ping was 0
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt0: 51
-RoundTrip time in attempt1: 72
-RoundTrip time in attempt2: 49
-RoundTrip time in attempt3: 42
-RoundTrip time in attempt4: 64
-RoundTrip time in attempt5: 51
-RoundTrip time in attempt6: 51
-RoundTrip time in attempt7: 44
-RoundTrip time in attempt8: 49
-RoundTrip time in attempt9: 52
-RoundTrip time in attempt10: 39
-RoundTrip time in attempt11: 66
-RoundTrip time in attempt12: 49
-RoundTrip time in attempt13: 26
-RoundTrip time in attempt14: 20
-RoundTrip time in attempt15: 39
-RoundTrip time in attempt16: 29
-RoundTrip time in attempt17: 54
-RoundTrip time in attempt18: 50
-RoundTrip time in attempt19: 26
-Minimum ping was 20
-Maximum ping was 72
-Average ping was 46.15
+RoundTrip time in attempt0: 72
+RoundTrip time in attempt1: 51
+RoundTrip time in attempt2: 66
+RoundTrip time in attempt3: 53
+RoundTrip time in attempt4: 24
+RoundTrip time in attempt5: 29
+RoundTrip time in attempt6: 32
+RoundTrip time in attempt7: 24
+RoundTrip time in attempt8: 44
+RoundTrip time in attempt9: 24
+RoundTrip time in attempt10: 81
+RoundTrip time in attempt11: 76
+RoundTrip time in attempt12: 19
+RoundTrip time in attempt13: 36
+RoundTrip time in attempt14: 54
+RoundTrip time in attempt15: 49
+RoundTrip time in attempt16: 36
+RoundTrip time in attempt17: 21
+RoundTrip time in attempt18: 79
+RoundTrip time in attempt19: 49
+Minimum ping was 19
+Maximum ping was 81
+Average ping was 45.95
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
-RoundTrip time in attempt0: 45
-RoundTrip time in attempt1: 20
-RoundTrip time in attempt2: 14
-RoundTrip time in attempt3: 16
-RoundTrip time in attempt4: 16
-RoundTrip time in attempt5: 16
-RoundTrip time in attempt6: 11
-RoundTrip time in attempt7: 12
-RoundTrip time in attempt8: 14
-RoundTrip time in attempt9: 37
+RoundTrip time in attempt0: 12
+RoundTrip time in attempt1: 21
+RoundTrip time in attempt2: 11
+RoundTrip time in attempt3: 17
+RoundTrip time in attempt4: 12
+RoundTrip time in attempt5: 11
+RoundTrip time in attempt6: 40
+RoundTrip time in attempt7: 38
+RoundTrip time in attempt8: 31
+RoundTrip time in attempt9: 41
 RoundTrip time in attempt10: 18
-RoundTrip time in attempt11: 18
-RoundTrip time in attempt12: 37
-RoundTrip time in attempt13: 37
-RoundTrip time in attempt14: 15
-RoundTrip time in attempt15: 14
-RoundTrip time in attempt16: 18
-RoundTrip time in attempt17: 14
-RoundTrip time in attempt18: 23
-RoundTrip time in attempt19: 17
-Minimum ping was 11
-Maximum ping was 45
-Average ping was 20.6
+RoundTrip time in attempt11: 29
+RoundTrip time in attempt12: 29
+RoundTrip time in attempt13: 36
+RoundTrip time in attempt14: 36
+RoundTrip time in attempt15: 36
+RoundTrip time in attempt16: 10
+RoundTrip time in attempt17: 9
+RoundTrip time in attempt18: 21
+RoundTrip time in attempt19: 27
+Minimum ping was 9
+Maximum ping was 41
+Average ping was 24.25
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
 RoundTrip time in attempt0: 1
