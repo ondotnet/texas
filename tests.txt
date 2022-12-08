@@ -9,53 +9,53 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 For 1.0.0.1: 
-RoundTrip time in attempt1: 20
-RoundTrip time in attempt2: 28
-RoundTrip time in attempt3: 19
-RoundTrip time in attempt4: 19
-RoundTrip time in attempt5: 27
-RoundTrip time in attempt6: 26
-RoundTrip time in attempt7: 11
-RoundTrip time in attempt8: 30
-RoundTrip time in attempt9: 18
-RoundTrip time in attempt10: 18
-RoundTrip time in attempt11: 17
-RoundTrip time in attempt12: 24
-RoundTrip time in attempt13: 19
-RoundTrip time in attempt14: 13
-RoundTrip time in attempt15: 14
-RoundTrip time in attempt16: 33
-RoundTrip time in attempt18: 16
-RoundTrip time in attempt19: 21
-Minimum ping was 11
-Maximum ping was 33
-Average ping was 20.72222222222222
-20 ping requests sent, 2 failed to return
+RoundTrip time in attempt0: 12
+RoundTrip time in attempt1: 26
+RoundTrip time in attempt2: 17
+RoundTrip time in attempt3: 14
+RoundTrip time in attempt4: 23
+RoundTrip time in attempt5: 23
+RoundTrip time in attempt6: 13
+RoundTrip time in attempt7: 16
+RoundTrip time in attempt8: 16
+RoundTrip time in attempt9: 17
+RoundTrip time in attempt10: 38
+RoundTrip time in attempt11: 19
+RoundTrip time in attempt12: 18
+RoundTrip time in attempt13: 23
+RoundTrip time in attempt14: 23
+RoundTrip time in attempt15: 13
+RoundTrip time in attempt16: 18
+RoundTrip time in attempt17: 19
+RoundTrip time in attempt18: 14
+RoundTrip time in attempt19: 27
+Minimum ping was 12
+Maximum ping was 38
+Average ping was 19.45
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 1.1.1.1: 
-RoundTrip time in attempt1: 18
-RoundTrip time in attempt2: 11
-RoundTrip time in attempt3: 22
-RoundTrip time in attempt4: 12
-RoundTrip time in attempt5: 13
-RoundTrip time in attempt6: 24
-RoundTrip time in attempt7: 23
-RoundTrip time in attempt8: 13
+RoundTrip time in attempt0: 21
+RoundTrip time in attempt1: 28
+RoundTrip time in attempt2: 19
+RoundTrip time in attempt3: 30
+RoundTrip time in attempt4: 22
+RoundTrip time in attempt5: 24
+RoundTrip time in attempt6: 23
+RoundTrip time in attempt7: 45
+RoundTrip time in attempt8: 42
 RoundTrip time in attempt9: 32
-RoundTrip time in attempt10: 19
-RoundTrip time in attempt11: 16
-RoundTrip time in attempt12: 29
-RoundTrip time in attempt13: 17
-RoundTrip time in attempt14: 37
-RoundTrip time in attempt15: 74
-RoundTrip time in attempt16: 23
-RoundTrip time in attempt17: 21
-RoundTrip time in attempt18: 22
-RoundTrip time in attempt19: 19
-Minimum ping was 11
-Maximum ping was 74
-Average ping was 23.42105263157895
-20 ping requests sent, 1 failed to return
+RoundTrip time in attempt10: 69
+RoundTrip time in attempt11: 53
+RoundTrip time in attempt12: 19
+RoundTrip time in attempt13: 14
+RoundTrip time in attempt14: 10
+RoundTrip time in attempt15: 17
+RoundTrip time in attempt16: 15
+RoundTrip time in attempt17: 17
+Minimum ping was 10
+Maximum ping was 69
+Average ping was 27.77777777777778
+20 ping requests sent, 2 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 127.0.0.1: 
 RoundTrip time in attempt0: 0
@@ -83,62 +83,63 @@ Maximum ping was 0
 Average ping was 0
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.4.4: 
-RoundTrip time in attempt1: 24
-RoundTrip time in attempt2: 24
-RoundTrip time in attempt3: 29
+RoundTrip time in attempt1: 26
+RoundTrip time in attempt2: 51
+RoundTrip time in attempt3: 23
+RoundTrip time in attempt4: 27
 RoundTrip time in attempt5: 21
-RoundTrip time in attempt6: 35
-RoundTrip time in attempt7: 59
-RoundTrip time in attempt8: 24
-RoundTrip time in attempt9: 33
-RoundTrip time in attempt10: 25
-RoundTrip time in attempt11: 24
-RoundTrip time in attempt12: 28
-RoundTrip time in attempt13: 24
-RoundTrip time in attempt14: 23
-RoundTrip time in attempt15: 21
-RoundTrip time in attempt16: 28
-RoundTrip time in attempt17: 29
-RoundTrip time in attempt18: 29
-RoundTrip time in attempt19: 23
+RoundTrip time in attempt6: 38
+RoundTrip time in attempt7: 33
+RoundTrip time in attempt8: 35
+RoundTrip time in attempt9: 67
+RoundTrip time in attempt10: 28
+RoundTrip time in attempt11: 26
+RoundTrip time in attempt12: 24
+RoundTrip time in attempt13: 26
+RoundTrip time in attempt14: 21
+RoundTrip time in attempt15: 32
+RoundTrip time in attempt16: 36
+RoundTrip time in attempt17: 23
+RoundTrip time in attempt18: 35
+RoundTrip time in attempt19: 53
 Minimum ping was 21
-Maximum ping was 59
-Average ping was 27.944444444444443
-20 ping requests sent, 2 failed to return
+Maximum ping was 67
+Average ping was 32.89473684210526
+20 ping requests sent, 1 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 8.8.8.8: 
-RoundTrip time in attempt0: 22
-RoundTrip time in attempt1: 18
-RoundTrip time in attempt2: 23
-RoundTrip time in attempt3: 16
-RoundTrip time in attempt4: 16
+RoundTrip time in attempt0: 23
+RoundTrip time in attempt1: 17
+RoundTrip time in attempt2: 19
+RoundTrip time in attempt4: 14
 RoundTrip time in attempt5: 16
-RoundTrip time in attempt6: 22
-RoundTrip time in attempt7: 18
-RoundTrip time in attempt8: 16
-RoundTrip time in attempt9: 25
-RoundTrip time in attempt10: 18
-RoundTrip time in attempt11: 21
-RoundTrip time in attempt12: 18
-RoundTrip time in attempt13: 27
-RoundTrip time in attempt14: 15
+RoundTrip time in attempt6: 23
+RoundTrip time in attempt7: 14
+RoundTrip time in attempt8: 21
+RoundTrip time in attempt9: 12
+RoundTrip time in attempt10: 20
+RoundTrip time in attempt11: 12
+RoundTrip time in attempt12: 16
+RoundTrip time in attempt13: 17
+RoundTrip time in attempt14: 18
 RoundTrip time in attempt15: 14
-RoundTrip time in attempt16: 18
-RoundTrip time in attempt17: 18
-RoundTrip time in attempt18: 16
-RoundTrip time in attempt19: 22
-Minimum ping was 14
-Maximum ping was 27
-Average ping was 18.95
+RoundTrip time in attempt16: 11
+RoundTrip time in attempt17: 27
+RoundTrip time in attempt18: 20
+RoundTrip time in attempt19: 28
+Minimum ping was 11
+Maximum ping was 28
+Average ping was 18
+20 ping requests sent, 1 failed to return
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
 For 192.168.12.1: 
-RoundTrip time in attempt0: 2
-RoundTrip time in attempt1: 2
+RoundTrip time in attempt0: 105
+RoundTrip time in attempt1: 3
 RoundTrip time in attempt2: 1
 RoundTrip time in attempt3: 1
 RoundTrip time in attempt4: 1
 RoundTrip time in attempt5: 1
-RoundTrip time in attempt6: 2
+RoundTrip time in attempt6: 1
 RoundTrip time in attempt7: 1
 RoundTrip time in attempt8: 1
 RoundTrip time in attempt9: 1
@@ -153,8 +154,30 @@ RoundTrip time in attempt17: 1
 RoundTrip time in attempt18: 1
 RoundTrip time in attempt19: 1
 Minimum ping was 1
-Maximum ping was 2
-Average ping was 1.15
+Maximum ping was 105
+Average ping was 6.3
 Current high score is 164 for destination 1.0.0.1 at 11/18/2022 6:01:45 PM local time
+  Failed Texas.XunitTests.PersonTests.Person_ShouldHaveReturn [15 s]
+  Error Message:
+   Npgsql.NpgsqlException : Exception while reading from stream
+---- System.TimeoutException : Timeout during reading attempt
+  Stack Trace:
+     at Npgsql.Internal.NpgsqlReadBuffer.<Ensure>g__EnsureLong|41_0(NpgsqlReadBuffer buffer, Int32 count, Boolean async, Boolean readingNotifications)
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.PostgresDatabaseInfo.LoadBackendTypes(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
+   at Npgsql.PostgresDatabaseInfo.LoadPostgresInfo(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
+   at Npgsql.PostgresDatabaseInfoFactory.Load(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
+   at Npgsql.Internal.NpgsqlDatabaseInfo.Load(NpgsqlConnector conn, NpgsqlTimeout timeout, Boolean async)
+   at Npgsql.Internal.NpgsqlConnector.LoadDatabaseInfo(Boolean forceReload, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Texas.Persistence.DataAccess.PersonDb.GetPeopleAsync(String orderby, Int32 limit, Int32 offset) in /home/kushal/src/dotnet/texas/Texas.Persistence/DataAccess/PersonDb.cs:line 18
+   at Texas.XunitTests.PersonTests.Person_ShouldHaveReturn() in /home/kushal/src/dotnet/texas/Texas.XunitTests/PersonTests.cs:line 43
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+----- Inner Stack Trace -----
 
-Passed!  - Failed:     0, Passed:    24, Skipped:     0, Total:    24, Duration: 2 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
+
+Failed!  - Failed:     1, Passed:    23, Skipped:     0, Total:    24, Duration: 15 s - /home/kushal/src/dotnet/texas/Texas.XunitTests/bin/Debug/net6.0/Texas.XunitTests.dll (net6.0)
