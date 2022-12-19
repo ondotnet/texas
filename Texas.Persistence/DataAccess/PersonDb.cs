@@ -40,4 +40,12 @@ public class PersonDb: IPersonDb
         _logger.LogDebug("{methodName} returned {result}", nameof(GetPeopleAsync), JsonConvert.SerializeObject(persons));
         return persons;
     }
+
+    public async Task<int> UpdatePersonPrimaryEmailAddress(Person person)
+    {
+        using NpgsqlConnection connection = new(_connectionString);
+        Stopwatch stopwatch = Stopwatch.StartNew();
+        var result = await connection.ExecuteAsync(@"update person p set primaryemailaddress = @email where p.id = @personId", new { personId = person.Id, email = person.PrimaryEmailAddress.ToString() });
+        return result;
+    }
 }
