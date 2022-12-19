@@ -107,7 +107,7 @@ public class PersonTests
 
             foreach (var person in resultList)
             {
-                var actual = await access.UpdatePersonPrimaryEmailAddress(person);
+                var actual = await access.UpdatePersonPrimaryEmailAddress(person.Id, person.PrimaryEmailAddress.ToString());
                 actual.Should().Be(1);
                 IEnumerable<Person> result2 = await access.GetPeopleAsync();
                 List<Person> resultList2 = result.ToList<Person>();

@@ -41,11 +41,11 @@ public class PersonDb: IPersonDb
         return persons;
     }
 
-    public async Task<int> UpdatePersonPrimaryEmailAddress(Person person)
+    public async Task<int> UpdatePersonPrimaryEmailAddress(int id, string newEmail)
     {
         using NpgsqlConnection connection = new(_connectionString);
         Stopwatch stopwatch = Stopwatch.StartNew();
-        var result = await connection.ExecuteAsync(@"update person p set primaryemailaddress = @email where p.id = @personId", new { personId = person.Id, email = person.PrimaryEmailAddress.ToString() });
+        var result = await connection.ExecuteAsync(@"update person p set primaryemailaddress = @email where p.id = @personId", new { personId = id, email = newEmail });
         return result;
     }
 }
