@@ -16,7 +16,7 @@ public class EmailAddressTests
     public void EmailAddressNull_ShouldThrowNullReferenceException()
     {
         // Arrange, Act, Assert
-        Action action = () => new EmailAddress(null);
+        Action action = () => new EmailAddress(null!);
         action.Should().Throw<NullReferenceException>();
     }
 }

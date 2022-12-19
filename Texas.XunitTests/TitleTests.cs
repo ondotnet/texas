@@ -16,8 +16,8 @@ public class TitleTests
     public void PreferredNameNull_ShouldSucceed()
     {
         // Arrange, act, assert
-        Title actual = new(null);
-        Title actualAnother = new(null);
+        Title actual = new(null!);
+        Title actualAnother = new(null!);
         actual.Should().Be(actualAnother);
     }
 

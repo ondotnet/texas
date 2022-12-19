@@ -16,8 +16,8 @@ public class PreferredNameTests
     public void PreferredNameNull_ShouldSucceed()
     {
         // Arrange, act, assert
-        PreferredName actual = new(null);
-        PreferredName actualAnother = new(null);
+        PreferredName actual = new(null!);
+        PreferredName actualAnother = new(null!);
         actual.Should().Be(actualAnother);
     }
 

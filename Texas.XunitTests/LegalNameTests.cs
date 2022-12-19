@@ -19,8 +19,8 @@ public class LegalNameTests
     public void LegalNameNull_ShouldSucceed()
     {
         // Arrange, act, assert
-        LegalName actual = new(null);
-        LegalName actualAnother = new(null);
+        LegalName actual = new(null!);
+        LegalName actualAnother = new(null!);
         actual.Should().Be(actualAnother);
     }
 
